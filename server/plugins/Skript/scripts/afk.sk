@@ -1,0 +1,19 @@
+command /afk:
+    trigger:
+        make player execute command "/warp afk"
+
+every 30 minutes:
+    loop all players:
+        if loop-player is in the region "afk":
+
+            console command "/points give %loop-player% 5"
+            send "&8[<##57FF6B>&l!&8] <##57FF6B>You have been given &f5x Coins <##57FF6B>for being AFK!" to loop-player
+
+on region enter:
+    wait 2 ticks
+    if "%region at player%" contains "afk":
+        send "&8[<##57FF6B>&l!&8] <##57FF6B>You will now receive afk rewards!"
+
+on region exit:
+    if "%region at player%" contains "afk":
+        send "&8[&c&l!&8] &cYou will no longer receive afk rewards!"

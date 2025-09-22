@@ -1,0 +1,19 @@
+JumpPads:
+  spawn, 0, 126, 2:
+    owners:
+    - 2aaf1cc8-c6a1-4ae9-8d97-3b9f07f8ff3a
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 18.0
+    angle: 40.0
+  spawn, 1, 126, 2:
+    owners:
+    - 2aaf1cc8-c6a1-4ae9-8d97-3b9f07f8ff3a
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 18.0
+    angle: 40.0
+  spawn, -1, 126, 2:
+    owners:
+    - 2aaf1cc8-c6a1-4ae9-8d97-3b9f07f8ff3a
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 18.0
+    angle: 40.0

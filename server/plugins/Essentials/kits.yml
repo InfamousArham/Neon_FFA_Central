@@ -1,0 +1,50 @@
+kits:
+  firstjoin:
+    delay: 0
+    items:
+    - /deluxemenus open firstjoin {USERNAME}
+  archer:
+    delay: 10
+    items:
+    - iron_sword 1 damage_all:2
+    - crossbow 1 piercing:3
+    - arrow 32
+    - iron_helmet 1 protection_environmental:1
+    - diamond_chestplate 1 protection_environmental:2
+    - diamond_leggings 1 protection_environmental:1
+    - iron_boots 1 protection_environmental:1
+  cleric:
+    delay: 10
+    items:
+    - iron_sword 1 damage_all:2
+    - bow 1 arrow_damage:3
+    - arrow 32
+    - iron_helmet 1 protection_environmental:1
+    - iron_chestplate 1 protection_environmental:2
+    - iron_leggings 1 protection_environmental:2
+    - iron_boots 1 protection_environmental:1
+  assassin:
+    delay: 10
+    items:
+    - diamond_sword 1 damage_all:3
+    - diamond_helmet 1
+    - diamond_chestplate 1 protection_environmental:1
+    - diamond_leggings 1 protection_environmental:1
+    - diamond_boots 1
+  vessel:
+    delay: 10
+    items:
+    - iron_sword 1 damage_all:1
+    - shield 1 basecolor:16383998
+    - iron_helmet 1 protection_environmental:2
+    - diamond_chestplate 1 protection_environmental:2
+    - iron_leggings 1 protection_environmental:2
+    - iron_boots 1 protection_environmental:2
+  beserker:
+    delay: 10
+    items:
+    - diamond_sword 1 damage_all:4
+    - diamond_helmet 1 protection_environmental:1
+    - diamond_chestplate 1 protection_environmental:1
+    - iron_leggings 1 protection_environmental:1
+    - iron_boots 1 protection_environmental:1

@@ -1,0 +1,42 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+tasks:
+  playerkilling:
+    type: "playerkilling"
+    amount: 1000
+
+display:
+  name: "&c&lPlayer Killer VI"
+  lore-normal:
+    - "&8Quest Description"
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Kill &f1,000 Players&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &f1,800x FFA XP"
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &f{playerkilling:progress}&7/1,000 Kills"
+  type: "NETHERITE_AXE"
+
+rewards:
+  - "cyberlevels addExp 1800 {player}"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "&fKill 1,000 Players"
+  progress: "&f: &e{playerkilling:progress}/1,000 Kills"
+
+options:
+  category: "killer"
+  requires:
+    - "killer5"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6

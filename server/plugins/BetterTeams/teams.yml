@@ -1,0 +1,10 @@
+storageType: YAML
+teamNameLookup:
+- test:fae78469-77b2-440f-949e-aae90e55a753
+- immortal:a5a0e1f1-53a2-4861-b3d1-a1f4bfb2728c
+- smalldia:29562100-b7aa-4f88-b29d-76f6398caa81
+playerLookup:
+- bb43856f-cd4f-46a4-a94e-9b3d0dab4e5e:fae78469-77b2-440f-949e-aae90e55a753
+- dd6eb10f-0400-433f-ac84-06196cad3f4f:29562100-b7aa-4f88-b29d-76f6398caa81
+- 2aaf1cc8-c6a1-4ae9-8d97-3b9f07f8ff3a:a5a0e1f1-53a2-4861-b3d1-a1f4bfb2728c
+chestClaims: []

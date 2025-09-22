@@ -1,0 +1,717 @@
+open_command: quests
+register_command: true
+size: 45
+menu_title: 'Quests'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-44]
+
+  'main':
+    material: BOOK
+    data: 1
+    slot: 10
+    display_name: "&#27BBF9&lFFA Quests"
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    lore:
+      - "&8Quests Menu"
+      - ""
+      - "&fComplete quests to earn extra XP &"
+      - "&fLevel Up!"
+      - ""
+      - "&fPurchase a rank to progress multiple"
+      - "&fquests at once!"
+      - ""
+      - "&fYou can track quests to view progression"
+      - "&fat the top of your screen."
+      - ""
+
+  'playtime':
+    material: CLOCK
+    slot: 12
+    display_name: "&#00b0e9&lPlaytime Quests"
+    lore:
+      - "&8Quest Category"
+      - ""
+      - "&fComplete Playtime Quests to"
+      - "&fearn rewards!"
+      - ""
+      - "&8• &fCategory Completion: &7%quests_category:playtime_completed%/%quests_category:playtime_all%"
+      - ""
+      - "&#5DFF78➥ &lCLICK TO VIEW"
+      - ""
+    click_commands:
+      - '[player] quests:quests c playtime'
+
+  'killer':
+    material: NETHERITE_AXE
+    slot: 13
+    display_name: "&#00b0e9&lKiller Quests"
+    lore:
+      - "&8Quest Category"
+      - ""
+      - "&fComplete Killer Quests to"
+      - "&fearn rewards!"
+      - ""
+      - "&8• &fCategory Completion: &7%quests_category:killer_completed%/%quests_category:killer_all%"
+      - ""
+      - "&#5DFF78➥ &lCLICK TO VIEW"
+      - ""
+    click_commands:
+      - '[player] quests:quests c killer'
+
+  'damage':
+    material: DIAMOND_SWORD
+    slot: 14
+    display_name: "&#00b0e9&lDamage Quests"
+    lore:
+      - "&8Quest Category"
+      - ""
+      - "&fComplete Damage Quests to"
+      - "&fearn rewards!"
+      - ""
+      - "&8• &fCategory Completion: &7%quests_category:damage_completed%/%quests_category:damage_all%"
+      - ""
+      - "&#5DFF78➥ &lCLICK TO VIEW"
+      - ""
+    click_commands:
+      - '[player] quests:quests c damage'
+
+  'running':
+    material: CHAINMAIL_BOOTS
+    slot: 15
+    display_name: "&#00b0e9&lRunning Quests"
+    lore:
+      - "&8Quest Category"
+      - ""
+      - "&fComplete Running Quests to"
+      - "&fearn rewards!"
+      - ""
+      - "&8• &fCategory Completion: &7%quests_category:running_completed%/%quests_category:running_all%"
+      - ""
+      - "&#5DFF78➥ &lCLICK TO VIEW"
+      - ""
+    click_commands:
+      - '[player] quests:quests c running'
+
+  'money':
+    material: EMERALD
+    slot: 16
+    display_name: "&#00b0e9&lMoney Quests"
+    lore:
+      - "&8Quest Category"
+      - ""
+      - "&fComplete Money Quests to"
+      - "&fearn rewards!"
+      - ""
+      - "&8• &fCategory Completion: &7%quests_category:money_completed%/%quests_category:money_all%"
+      - ""
+      - "&#5DFF78➥ &lCLICK TO VIEW"
+      - ""
+    click_commands:
+      - '[player] quests:quests c money'
+
+
+    # // # // # // # // # // # // # // # // # // # // # // # // # // # // # // # // # // # // #
+
+
+  'reward1-claimed':
+    material: PINK_CANDLE
+    slot: 28
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#f387aa&lBonus Reward 1"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#f387aa&l7 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#f387aa%quests_completed%/7"
+      - "&8• &fReward: &#f387aa&m300x Skill XP (All Categories)"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.1'
+
+
+  'reward1-completed':
+    material: PINK_CANDLE
+    slot: 28
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#f387aa&lBonus Reward 1"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#f387aa&l7 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#f387aa%quests_completed%/7"
+      - "&8• &fReward: &#f387aa300x Skill XP (All Categories)"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '7'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.1'
+      - '[refresh]'
+
+      - '[console] skill xp add %player_name% archery 300'
+      - '[console] skill xp add %player_name% defence 300'
+      - '[console] skill xp add %player_name% fighting 300'
+      - '[console] skill xp add %player_name% endurance 300'
+      - '[console] skill xp add %player_name% agility 300'
+      - '[console] skill xp add %player_name% sorcery 300'
+      - '[console] skill xp add %player_name% healing 300'
+
+
+  'reward1':
+    material: PINK_CANDLE
+    slot: 28
+    priority: 3
+    update: true
+    display_name: "&#f387aa&lBonus Reward 1"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#f387aa&l7 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#f387aa%quests_completed%/7"
+      - "&8• &fReward: &#f387aa300x Skill XP (All Categories)"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward2-claimed':
+    material: LIGHT_BLUE_CANDLE
+    slot: 29
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#289FD2&lBonus Reward 2"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#289FD2&l14 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#289FD2%quests_completed%/14"
+      - "&8• &fReward: &#289FD2&m1,500x FFA XP"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.2'
+
+
+  'reward2-completed':
+    material: LIGHT_BLUE_CANDLE
+    slot: 29
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#289FD2&lBonus Reward 2"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#289FD2&l14 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#289FD2%quests_completed%/14"
+      - "&8• &fReward: &#289FD21,500x FFA XP"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '14'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.2'
+      - '[refresh]'
+
+      - '[console] clv addExp 1500 %player_name%'
+
+
+  'reward2':
+    material: LIGHT_BLUE_CANDLE
+    slot: 29
+    priority: 3
+    update: true
+    display_name: "&#289FD2&lBonus Reward 2"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#289FD2&l14 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#289FD2%quests_completed%/14"
+      - "&8• &fReward: &#289FD21,500x FFA XP"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward3-claimed':
+    material: CYAN_CANDLE
+    slot: 30
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#14b2b2&lBonus Reward 3"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#14b2b2&l21 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#14b2b2%quests_completed%/21"
+      - "&8• &fReward: &#14b2b2&m$3,000 In-Game Cash"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.3'
+
+
+  'reward3-completed':
+    material: CYAN_CANDLE
+    slot: 30
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#14b2b2&lBonus Reward 3"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#14b2b2&l21 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#14b2b2%quests_completed%/21"
+      - "&8• &fReward: &#14b2b2$3,000 In-Game Cash"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '21'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.3'
+      - '[refresh]'
+
+      - '[console] eco give %player_name% 3000'
+
+
+  'reward3':
+    material: CYAN_CANDLE
+    slot: 30
+    priority: 3
+    update: true
+    display_name: "&#14b2b2&lBonus Reward 3"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#14b2b2&l21 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#14b2b2%quests_completed%/21"
+      - "&8• &fReward: &#14b2b2$3,000 In-Game Cash"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward4-claimed':
+    material: LIME_CANDLE
+    slot: 31
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#99dc38&lBonus Reward 4"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#99dc38&l28 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#99dc38%quests_completed%/28"
+      - "&8• &fReward: &#99dc38&m300 Coins"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.4'
+
+
+  'reward4-completed':
+    material: LIME_CANDLE
+    slot: 31
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#99dc38&lBonus Reward 4"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#99dc38&l28 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#99dc38%quests_completed%/28"
+      - "&8• &fReward: &#99dc38300 Coins"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '28'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.4'
+      - '[refresh]'
+
+      - '[console] points give %player_name% 300'
+
+
+  'reward4':
+    material: LIME_CANDLE
+    slot: 31
+    priority: 3
+    update: true
+    display_name: "&#99dc38&lBonus Reward 4"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#99dc38&l28 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#99dc38%quests_completed%/28"
+      - "&8• &fReward: &#99dc38300 Coins"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward5-claimed':
+    material: YELLOW_CANDLE
+    slot: 32
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#fcca4a&lBonus Reward 5"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fcca4a&l35 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fcca4a%quests_completed%/35"
+      - "&8• &fReward: &#fcca4a&m$10,000 In-Game Cash"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.5'
+
+
+  'reward5-completed':
+    material: YELLOW_CANDLE
+    slot: 32
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#fcca4a&lBonus Reward 5"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fcca4a&l35 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fcca4a%quests_completed%/35"
+      - "&8• &fReward: &#fcca4a$10,000 In-Game Cash"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '35'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.5'
+      - '[refresh]'
+
+      - '[console] eco give %player_name% 10000'
+
+
+  'reward5':
+    material: YELLOW_CANDLE
+    slot: 32
+    priority: 3
+    update: true
+    display_name: "&#fcca4a&lBonus Reward 5"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fcca4a&l35 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fcca4a%quests_completed%/35"
+      - "&8• &fReward: &#fcca4a$10,000 In-Game Cash"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward6-claimed':
+    material: ORANGE_CANDLE
+    slot: 33
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#fc7f18&lBonus Reward 6"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fc7f18&l42 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fc7f18%quests_completed%/42"
+      - "&8• &fReward: &#fc7f18&m3,000x FFA XP"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.6'
+
+
+  'reward6-completed':
+    material: ORANGE_CANDLE
+    slot: 33
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#fc7f18&lBonus Reward 6"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fc7f18&l42 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fc7f18%quests_completed%/42"
+      - "&8• &fReward: &#fc7f183,000x FFA XP"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '42'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.6'
+      - '[refresh]'
+
+      - '[console] clv addExp 3000 %player_name%'
+
+
+  'reward6':
+    material: ORANGE_CANDLE
+    slot: 33
+    priority: 3
+    update: true
+    display_name: "&#fc7f18&lBonus Reward 6"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#fc7f18&l42 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#fc7f18%quests_completed%/42"
+      - "&8• &fReward: &#fc7f183,000x FFA XP"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""
+
+
+
+
+
+
+
+  'reward7-claimed':
+    material: RED_CANDLE
+    slot: 34
+    priority: 1
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#b33028&lBonus Reward 7"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#b33028&l45 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#b33028%quests_completed%/45"
+      - "&8• &fReward: &#b33028&m500 Coins"
+      - ""
+      - "&#FFF83A➥ &lREWARD CLAIMED"
+      - ""
+    view_requirement:
+      requirements:
+        is_claimed:
+          type: has permission
+          permission: 'tkquests.claimed.7'
+
+
+  'reward7-completed':
+    material: RED_CANDLE
+    slot: 34
+    priority: 2
+    update: true
+    enchantments:
+      - DURABILITY;1
+    hide_enchantments: true
+    display_name: "&#b33028&lBonus Reward 7"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#b33028&l45 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#b33028%quests_completed%/45"
+      - "&8• &fReward: &#b33028500 Coins"
+      - ""
+      - "&#6BFF5C➥ &lCLICK TO CLAIM"
+      - ""
+    view_requirement:
+      requirements:
+        amount_reached:
+          type: '>='
+          input: '%quests_completed%'
+          output: '45'
+    
+    click_commands:
+      - '[givepermission] tkquests.claimed.7'
+      - '[refresh]'
+
+      - '[console] points give %player_name% 500'
+
+
+  'reward7':
+    material: RED_CANDLE
+    slot: 34
+    priority: 3
+    update: true
+    display_name: "&#b33028&lBonus Reward 7"
+    lore:
+      - "&8Quest Reward"
+      - ""
+      - "&fComplete &#b33028&l45 &fQuests to"
+      - "&funlock this reward"
+      - ""
+      - "&8• &fProgress: &#b33028%quests_completed%/45"
+      - "&8• &fReward: &#b33028500 Coins"
+      - ""
+      - "&#FF3E3E➥ &lLOCKED"
+      - ""

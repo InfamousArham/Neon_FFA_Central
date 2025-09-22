@@ -1,0 +1,46 @@
+open_command: discord
+size: 27
+menu_title: 'Discord Server'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-26]
+
+  'invite':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY2NGU1NGU3NjI4N2UzZmUyYmQzOTdjMDk4ZWU3YTRiZDBmOWM4OGY5MzlmZGU4YmFiNzhjMzI3MWE0NjE4ZiJ9fX0=
+    data: 1
+    slot: 11
+    display_name: "&#5865F2&lJoin Discord Server"
+    lore:
+      - "&8Discord Information"
+      - ""
+      - "&f• Join the server at &#70EEF6discord.gg/invite"
+      - ""
+      - "&e➥ &lCLICK FOR LINK"
+      - ""
+    click_commands:
+      - '[message] &r'
+      - '[message] &f&8[&b&l!&8] &fJoin the Discord server at: &#70EEF6discord.gg/invite'
+      - '[message] &r'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+
+  'link':
+    material: NAME_TAG
+    data: 1
+    slot: 15
+    display_name: "&#57F287&lLink Account"
+    lore:
+      - "&8Discord Information"
+      - ""
+      - "&fClick here to recieve a code to link"
+      - "&fyour Discord account to your Minecraft"
+      - "&faccount and sync your ranks."
+    click_commands:
+      - '[player] discord link'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'

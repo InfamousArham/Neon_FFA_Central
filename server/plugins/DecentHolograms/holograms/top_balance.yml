@@ -1,0 +1,41 @@
+location: spawn:-8.500:131.500:-5.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: ORANGE_DYE'
+    height: 0.6
+  - content: '&#FFAB3E&lᴛᴏᴘ ʙᴀʟᴀɴᴄᴇs'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '#FFAB3E#1 &7| &f%ajlb_lb_vault_eco_balance_commas_1_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_1_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#2 &7| &f%ajlb_lb_vault_eco_balance_commas_2_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_2_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#3 &7| &f%ajlb_lb_vault_eco_balance_commas_3_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_3_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#4 &7| &f%ajlb_lb_vault_eco_balance_commas_4_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_4_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#5 &7| &f%ajlb_lb_vault_eco_balance_commas_5_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_5_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#6 &7| &f%ajlb_lb_vault_eco_balance_commas_6_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_6_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#7 &7| &f%ajlb_lb_vault_eco_balance_commas_7_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_7_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#8 &7| &f%ajlb_lb_vault_eco_balance_commas_8_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_8_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#9 &7| &f%ajlb_lb_vault_eco_balance_commas_9_alltime_name%: #FFAB3E$%ajlb_lb_vault_eco_balance_commas_9_alltime_value%'
+    height: 0.3
+  - content: '#FFAB3E#10 &7| &f%ajlb_lb_vault_eco_balance_commas_10_alltime_name%:
+      #FFAB3E$%ajlb_lb_vault_eco_balance_commas_10_alltime_value%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#FFAB3E#%ajlb_position_vault_eco_balance_commas_alltime% &7| &f%player_name%: #FFAB3E$%ajlb_value_vault_eco_balance_commas_alltime%'
+    height: 0.3
+  actions: {}

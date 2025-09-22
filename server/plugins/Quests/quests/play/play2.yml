@@ -1,0 +1,43 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 180
+    ignore-afk: true
+
+display:
+  name: "&b&lPlaytime II"
+  lore-normal:
+    - "&8Quest Description"
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Play for &f3 Hours&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &f600x FFA XP"
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &f{playtime:progress}&7/180 Minutes Played"
+  type: "CLOCK"
+
+rewards:
+  - "cyberlevels addExp 600 {player}"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "&fPlay for 3 hours"
+  progress: "&f: &e{playtime:progress}/180 Minutes Played"
+
+options:
+  category: "playtime"
+  requires:
+    - "play1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 2

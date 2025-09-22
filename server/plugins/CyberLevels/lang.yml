@@ -1,0 +1,68 @@
+messages:
+  prefix: '&8[&b&l!&8] &b&lLevels &7→&r'
+  no-permission: '&cYou don''t have permission to do that!'
+  help-player:
+  - '[C] &8&m――――――― &r&#27BBF9&l FFA Levels &8&m―――――――'
+  - '      &8➼ &#56E0FF/level help &fSee the help menu.'
+  - '      &8➼ &#56E0FF/level info &fSee level progress.'
+  - '[C] '
+  help-admin:
+  - '[C] &8&m――――――― &r&#27BBF9&l FFA Levels &8&m―――――――'
+  - '      &8➼ &#56E0FF/level about &fAbout the plugin.'
+  - '      &8➼ &#56E0FF/level help &fSee the help menu.'
+  - '      &8➼ &#56E0FF/level reload &fReload the plugin.'
+  - '      &8➼ &#56E0FF/level info [<player>] &fSee level progress.'
+  - '      &8➼ &#56E0FF/level addEXP <amount> [<player>] &fIncrease a player''s EXP
+    balance.'
+  - '      &8➼ &#56E0FF/level setEXP <amount> [<player>] &fSet a player''s EXP balance.'
+  - '      &8➼ &#56E0FF/level removeEXP <amount> [<player>] &fDecrease a player''s EXP
+    balance.'
+  - '      &8➼ &#56E0FF/level addLevel <amount> [<player>] &fIncrease a player''s level.'
+  - '      &8➼ &#56E0FF/level setLevel <amount> [<player>] &fSet a player''s level.'
+  - '      &8➼ &#56E0FF/level removeLevel <amount> [<player>] &fDecrease a player''s
+    level.'
+  - '[C] '
+  
+  progress:
+    bar: ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    complete-color: '&#56E0FF'
+    incomplete-color: '&7'
+    end-color: '&7'
+  
+  reloading: '&7Reloading...'
+  reloaded: '&aReloaded!'
+  auto-save: '&aSuccessfully auto-saved all player data (&7{ms}ms&a).'
+  added-exp: '&aAdded {addedEXP} to {player}''s experience. They are now level {level}
+    with {playerEXP} experience.'
+  set-exp: '&aSet {player}''s experience to {setEXP}. They are now level {level} with
+    {playerEXP} experience.'
+  removed-exp: '&aRemoved {removedEXP} from {player}''s experience. They are now level
+    {level} with {playerEXP} experience.'
+  added-levels: '&aAdded {addedLevels} to {player}''s level(s). They are now level {level}
+    with {playerEXP} experience.'
+  set-level: '&aSet {player}''s level to {setLevel}. They are now level {level} with
+    {playerEXP} experience.'
+  removed-levels: '&aRemoved {removedLevels} from {player}''s level(s). They are now
+    level {level} with {playerEXP} experience.'
+  player-offline: '&cThe player {player} is not online!'
+  not-number: '&cThat is not a number!'
+  level-info:
+  - '[C] '
+  - '[C] &8&m――――――― &r&#27BBF9&l FFA Level &8&m―――――――'
+  - '[C] &7Player: &f{player}'
+  - '[C] &7Level: &f{level}&7/&#56E0FF{maxLevel}'
+  - '[C] &7EXP: &f{playerEXP}&7/&#56E0FF{requiredEXP} &7[&f{percent}%&7]'
+  - '[C] &7[{progressBar}&7]'
+  - '[C] '
+  gained-exp: '[actionbar] &#56E0FF+{gainedEXP} EXP'
+  lost-exp: '[actionbar] &#56E0FF-{lostEXP} EXP'
+  gained-levels: '[actionbar] &#56E0FF+{gainedLevels} Level(s)'
+  lost-levels: '[actionbar] &#56E0FF-{lostLevels} Level(s)'
+
+leaderboard-placeholders:
+  no-player-name: '&#9cc2ff-'
+  no-player-level: '&#9cc2ff-'
+  no-player-exp: '&#9cc2ff-'
+  loading-name: '&#9cc2ffLoading...'
+  loading-level: '&#9cc2ffLoading...'
+  loading-exp: '&#9cc2ffLoading...'

@@ -1,0 +1,57 @@
+size: 27
+menu_title: 'Welcome to SERVER NAME'
+open_command: 'eula'
+register_command: true
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-26]
+
+  'welcome':
+    material: BOOK
+    data: 1
+    slot: 11
+    display_name: "&b&lWelcome to SERVER NAME"
+    lore:
+      - ""
+      - "&fThis server is not approved or associated"
+      - "&fby Mojang or Microsoft."
+      - ""
+      - "&fThis Server (SERVER NAME) is responsible for"
+      - "&fall end user data privacy and protection"
+      - "&frequirements on this server."
+      - ""
+      - "&fYou can type /rules to remind yourself of"
+      - "&fthe disallowed content on this server."
+
+  'webstore':
+    material: EMERALD
+    data: 1
+    slot: 13
+    display_name: "&a&lWebstore Purchases"
+    lore:
+      - ""
+      - "&fThis server is funded by players purchasing"
+      - "&fitems from our webstore."
+      - ""
+      - "&fYou can view the webstore at:"
+      - "&fstore.example.net"
+
+  'close':
+    material: BARRIER
+    data: 1
+    slot: 15
+    display_name: "&c&lClose Menu"
+    lore:
+      - ""
+      - "&fThis menu is only shown automatically"
+      - "&fwhen you first join the server."
+      - ""
+      - "&fYou can open this menu again with"
+      - "&fthe /eula command."
+    click_commands:
+      - '[close]'

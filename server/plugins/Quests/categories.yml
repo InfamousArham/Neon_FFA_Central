@@ -1,0 +1,58 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks ona category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  playtime:
+    display:
+      name: "&f&lPlaytime Quests"
+      lore:
+        - "&8Quest Picker"
+        - ""
+        - "&7These quests are progressed by"
+        - "&7simply playing on the server!"
+        - ""
+      type: "WHITE_DYE"
+  killer:
+    display:
+      name: "&c&lKiller Quests"
+      lore:
+        - "&8Quest Picker"
+        - ""
+        - "&7These quests are progressed by"
+        - "&7killing players on the server!"
+        - ""
+      type: "RED_DYE"
+  damage:
+    display:
+      name: "&6&lDamage Quests"
+      lore:
+        - "&8Quest Picker"
+        - ""
+        - "&7These quests are progressed by"
+        - "&7dealing damage to other players"
+        - "&7on the server!"
+        - ""
+      type: "ORANGE_DYE"
+  running:
+    display:
+      name: "&b&lRunning Quests"
+      lore:
+        - "&8Quest Picker"
+        - ""
+        - "&7These quests are progressed by"
+        - "&7running around on the server!"
+        - ""
+      type: "LIGHT_BLUE_DYE"
+  money:
+    display:
+      name: "&a&lMoney Quests"
+      lore:
+        - "&8Quest Picker"
+        - ""
+        - "&7These quests are progressed by"
+        - "&7earning money on the server!"
+        - ""
+      type: "LIME_DYE"

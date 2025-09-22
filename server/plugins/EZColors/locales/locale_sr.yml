@@ -1,0 +1,94 @@
+Name: 'Serbian'
+
+#MAIN GUI
+GUI_COLOR_TITLE: 'Боја Чета'
+GUI_SET_COLOR: '&7Кликни да поде�?иш �?воју боју чета у {Color}&7!'
+GUI_SET_COLOR_DEFAULT: '&7Кликни да поде�?иш боју чета у подразумевану!'
+GUI_SET_COLOR_DEFAULT_HAS_ACCESS: '&aКликни да промениш у подразумевану боју!'
+GUI_SET_COLOR_DEFAULT_NO_ACCESS: '&c�?емаш дозволу да промениш боју у подразумевану!'
+GUI_HAS_ACCESS: '&aКликни да кори�?тиш!'
+GUI_NO_ACCESS: '&c�?емаш дозволу да кори�?тиш ову боју!'
+GUI_SELECTED_COLOR_TITLE: '&e&lИзабрана боја'
+GUI_SELECTED_COLOR_LORE: '&7Твоја изабрана боја је:||||{SelectedColor}'
+
+#CUSTOM COLOR GUI
+GUI_COLOR_CUSTOM_TITLE: 'Креатор боје чета'
+GUI_CUSTOM_COLOR_ITEM_TITLE: '&e&lПрилагођена боја'
+GUI_CUSTOM_COLOR_ITEM_LORE_HAS_ACCESS: '&7Кликни овде да направи�? прилагођену боји.'
+GUI_CUSTOM_COLOR_ITEM_LORE_NO_ACCESS: '&cИзвини, али ти не можеш да направиш прилагођену боју.'
+GUI_COLOR_FINISH: 'Заврши'
+GUI_COLOR_FINISH_LORE: '&7Кликни да завршиш креиранје прилагођене боје!||||{CustomColor}'
+COLOR_ADDED_MSG: '%prefix% &7У�?пешно �?мо додали {Color} &7боју у прилагођене!'
+GUI_ADD_CUSTOM_COLOR:  '&7Кликни да додаш {Color} у прилагођене боје&7!'
+GUI_HAS_ACCESS_CUSTOM: '&aКликни да додаш!'
+#You can add || to add new lines!
+GUI_CUSTOM_COLOR_LORE: 'Кликни да изабереш ову боју из прилагођених!'
+GUI_CUSTOM_COLOR_EXAMPLE: 'Овако ђе прилагођена боја да изгледа у чету.'
+RESET_CUSTOM_COLORS_LIST: '&7Кликни да изабереш прилагођену боју.'
+GUI_FINISH_CUSTOM_COLOR: '%prefix% &7У�?пешно �?мо креирали твоју прилагођену боју чета! �?апиши нешто у чету да ју видиш!'
+GUI_COLOR_BACK: '�?азад'
+GUI_COLOR_BACK_LORE: 'Кликни да идеш назад.'
+
+#COLORS
+COLOR: 'Боја'
+COLOR_DARK_RED: 'Тамно Црвена'
+COLOR_GREEN: 'Зелена'
+COLOR_BLUE: 'Плава'
+COLOR_CYAN: 'Зеленка�?то Плава'
+COLOR_PURPLE: 'Лјубича�?та'
+COLOR_GOLD: 'Златна'
+COLOR_DARK_GRAY: 'Тамно �?ива'
+COLOR_RED: 'Црвена'
+COLOR_LIME: 'Светно Зелана'
+COLOR_LIGHT_BLUE: 'Светло Плава'
+COLOR_BLACK: 'Црна'
+COLOR_PINK: 'Роза'
+COLOR_YELLOW: 'Жута'
+COLOR_GRAY: 'Сива'
+COLOR_AQUA: 'Светло Плава'
+COLOR_WHITE: 'Бела'
+COLOR_RAINBOW: 'Боја Дуге'
+COLOR_RESET: 'Ре�?етуј'
+
+COLOR_RESET_NO_PERM: '%prefix% &cТи не можеш да ре�?етујеш �?воју боју.'
+
+COLOR_RAINBOW_SELECT_LEFT: '&7Леви клик да поде�?иш �?воју боју у Дугине Боје!'
+COLOR_RAINBOW_SELECT_RIGHT: '&7Де�?ни клик да поде�?иш �?воју боју у Дугине Боје 2!'
+
+COLOR_HEX_SELECT_TITLE: 'Прилагођена хек�? вредно�?т (1.16+)'
+COLOR_HEX_SELECT_LORE: '&7Кликните да би�?те боју по�?тавили на хек�? вредно�?т!'
+COLOR_HEX_CUSTOM: 'Прилагођена Хек�? боја'
+COLOR_HEX_CUSTOM_VALUE: 'Ше�?нае�?та вредно�?т'
+COLOR_HEX_CUSTOM_INCORRECT: '�?етачна Хек�? вредно�?т'
+
+NO_COLOR_SET: '&c�?иједна боја није подешена'
+COLOR_SELECTED: '%prefix% &7У�?пешно �?електована {Color} &7боја!'
+COLOR_SELECTED_DEFAULT_SUCCESSFUL: '%prefix% &У�?пешно враћена у подразумевану.'
+COLOR_SELECTED_DEFAULT_NO_COLOR: '%prefix% &cТи немаш �?електовану боју.'
+
+#LANGUAGE GUI
+GUI_LANGUAGE_TITLE: 'Језици'
+GUI_LANGUAGE_LANGUAGE_ENABLED_DESC: 'Овај језик је тренутно изабран.'
+GUI_LANGUAGE_LANGUAGE_DISABLED_DESC: 'Кликни да изабереш {Language} као језик плугина.'
+GUI_LANGUAGE_LANGUAGE_REFRESH_TITLE: 'О�?вежи језике'
+GUI_LANGUAGE_LANGUAGE_REFRESH_DESC: 'Кликни да о�?вежиш �?ве језике.||Ово ће потражити и нове језике.'
+GUI_LANGUAGE_LANGUAGE_REFRESH_MSG: '%prefix% &aЈезици о�?вежени.'
+GUI_LANGUAGE_LANGUAGE_NOT_FINISHED_MSG: '%prefix% &cјезик није готов, па �?е не може учитати!'
+
+#OTHER
+PLAYER_NOT_FOUND: '%prefix%&c{Player} could not be found!'
+COLOR_SELECTED_OTHER: '%prefix%&7Successfully set {Player}''s color to {Color}&7!'
+COLOR_SELECTED_OTHER_DEFAULT_SUCCESSFUL: '%prefix%&7Successfully set {Player}''s color back to default!'
+COLOR_SELECTED_OTHER_DEFAULT_NO_COLOR: '%prefix%&c{Player} has no chat color selected.'
+
+#COMMANDS
+COMMAND_NO_PERMS: '%prefix%&cYou don''t have enough permissions to use this command!'
+COMMAND_NO_PERMS_LANGUAGES: '%prefix%&cYou don''t have access to open the languages menu.'
+COMMAND_NO_ACCESS: '%prefix%&cJe hebt geen toegang tot deze kleur!'
+COMMAND_NO_ACCESS_CUSTOM: '%prefix%&cТи немаш дозволу за прављење прилагођене боје!'
+COMMAND_SPECIFY_COLOR: '%prefix%&cPlease specify a color!'
+COMMAND_NOT_COLOR: '%prefix%&c{Color} is not a color!'
+COMMAND_ONLINE_PLAYER: '%prefix%&cYou have to be an online player to run this command!'
+
+COMMAND_RAINBOW: '&4R&ca&6i&en&2b&ao&bw'
+COMMAND_RAINBOW_2: '&4R&ca&6i&en&2b&ao&bw &92'

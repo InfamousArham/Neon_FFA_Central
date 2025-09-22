@@ -1,0 +1,145 @@
+open_command: ranks
+register_command: true
+size: 27
+menu_title: 'Donator Ranks'
+
+items:
+  'main':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyZDJmOTMxMDQ0NDFjYTU2NmY3YjcxOGMzZGQwMzgyY2IzOGY5Njc4YjVjYjE4MWVhMjQ4N2EyZjdmODI2YiJ9fX0=
+    data: 1
+    slot: 10
+    display_name: "&#27BBF9&lServer Ranks"
+    lore:
+      - "&8Donator Ranks"
+      - ""
+      - "&fRanks are the &#56E0FFBEST &fway of"
+      - "&fgetting server perks for the"
+      - "&#56E0FFCHEAPEST &fprice."
+      - ""
+      - "&#27BBF9&lCLICK TO SEE THE STORE"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+
+  'vip':
+    material: BOOK
+    data: 1
+    slot: 12
+    display_name: "&#e9b308&lVIP &fRank"
+    lore:
+      - "&8Donator Rank"
+      - ""
+      - "&#e9b308Rank Perks:"
+      - "&7➥ &#e9b3085 Coins &fDaily Reward"
+      - "&7➥ &#e9b308/ptime &fCommand"
+      - "&7➥ &#e9b308/spectate &fCommand"
+      - ""
+      - "&#e9b308&lCLICK TO BUY"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+      
+  'pro':
+    material: BOOK
+    data: 1
+    slot: 13
+    display_name: "&#85cc16&lPRO &fRank"
+    lore:
+      - "&8Donator Rank"
+      - ""
+      - "&#85cc16Rank Perks:"
+      - "&7➥ &#85cc162x &fConcurrent Active Quests"
+      - "&7➥ &#85cc168 Coins &fDaily Reward"
+      - "&7➥ &#85cc16/ptime &fCommand"
+      - "&7➥ &#85cc16/spectate &fCommand"
+      - "&7➥ &#85cc16/pweather &fCommand"
+      - ""
+      - "&#85cc16&lCLICK TO BUY"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+
+  'mvp':
+    material: BOOK
+    data: 1
+    slot: 14
+    display_name: "&#0ea6e9&lMVP &fRank"
+    lore:
+      - "&8Donator Rank"
+      - ""
+      - "&#0ea6e9Rank Perks:"
+      - "&7➥ &#0ea6e92x &fConcurrent Active Quests"
+      - "&7➥ &#0ea6e910 Coins &fDaily Reward"
+      - "&7➥ &#0ea6e9/ptime &fCommand"
+      - "&7➥ &#0ea6e9/spectate &fCommand"
+      - "&7➥ &#0ea6e9/pweather &fCommand"
+      - "&7➥ &#0ea6e9/nick &fCommand"
+      - ""
+      - "&#0ea6e9&lCLICK TO BUY"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]'
+
+  'elite':
+    material: BOOK
+    data: 1
+    slot: 15
+    display_name: "&#eb4899&lELITE &fRank"
+    lore:
+      - "&8Donator Rank"
+      - ""
+      - "&#eb4899Rank Perks:"
+      - "&7➥ &#eb48993x &fConcurrent Active Quests"
+      - "&7➥ &#eb489912 Coins &fDaily Reward"
+      - "&7➥ &#eb4899/ptime &fCommand"
+      - "&7➥ &#eb4899/spectate &fCommand"
+      - "&7➥ &#eb4899/pweather &fCommand"
+      - "&7➥ &#eb4899/nick &fCommand"
+      - "&7➥ &#eb4899/invsee &fCommand"
+      - ""
+      - "&#eb4899&lCLICK TO BUY"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]' 
+      
+  'immortal':
+    material: BOOK
+    data: 1
+    slot: 16
+    display_name: "&#d859ff&lIMMORTAL &fRank"
+    lore:
+      - "&8Donator Rank"
+      - ""
+      - "&#d859ffRank Perks:"
+      - "&7➥ &#d859ff3x &fConcurrent Active Quests"
+      - "&7➥ &#d859ff15 Coins &fDaily Reward"
+      - "&7➥ &#d859ff/ptime &fCommand"
+      - "&7➥ &#d859ff/spectate &fCommand"
+      - "&7➥ &#d859ff/pweather &fCommand"
+      - "&7➥ &#d859ff/nick &fCommand"
+      - "&7➥ &#d859ff/invsee &fCommand"
+      - "&7➥ &#d859ff/heal &fCommand &7(10m Cooldown)"
+      - ""
+      - "&#d859ff&lCLICK TO BUY"
+      - ""
+    left_click_commands:
+      - '[player] buy'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[close]' 
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-9,11,17-26]
+sweet: true

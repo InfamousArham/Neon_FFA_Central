@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: 36211972-0403-420b-9255-e06f20b8b98c
+    world-name: spawn
+    x: 0.5
+    y: 127.0
+    z: -6.5
+    yaw: 0.097028449177742
+    pitch: -0.7499539852142334

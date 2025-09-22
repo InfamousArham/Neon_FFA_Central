@@ -1,0 +1,1162 @@
+open_command: playtime
+register_command: true
+size: 54
+menu_title: 'Playtime Levels [1/2]'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: playtimelevels.open
+      deny_commands:
+        - "[message] &cYou don't have permission to use playtime levels!"
+
+items:
+
+  'helpful-info':
+    material: ENCHANTING_TABLE
+    slot: 38
+    update: true
+    display_name: "&#f80026&lHelpful Information"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&fPlaytime levels are achieveable tiers where"
+      - "&fyou can get rewards by just playing! (or afking)"
+      - "&fThe more you play the more in—game rewards"
+      - "&fyou will receive!"
+      - ""
+      - "&#fc3275&lDon't want to level?"
+      - "&fPurchase coins on our store"
+      - "&fto buy items on your own!"
+      - ""
+      - "&#fcfc54&l➥ CLICK FOR STORE"
+
+    click_commands:
+      - '[message] &fVisit our store at: &#fcfc54https://store.example.net'
+
+  'statistics':
+    material: PAINTING
+    slot: 39
+    update: true
+    display_name: "&#f80026&lYour Statistics"
+    lore:
+      - "&8Personal Statistics"
+      - ""
+      - "&fStatistics:"
+      - "&8&l| &fPlaytime: &#18b348%statistic_hours_played%h %statistic_time_played:minutes%m"
+
+  'next':
+    material: LIME_SHULKER_BOX
+    slot: 42
+    update: true
+    display_name: "&7[→] &aNext Page"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&fHead to the next page to"
+      - "&fobtain more rewards!"
+      - ""
+      - "&#fcfc54&l➥ CONTINUE"
+
+    click_commands:
+      - '[openguimenu] playtime2'
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    update: true
+    display_name: "&0"
+    data: 1
+    slots: [0-10,16-19,25-28,34-37,40,43-53,41]
+
+# ----------- # ----------- # ----------- # ----------- # ----------- # ----------- #
+
+  # -- #   LEVEL 1   # -- #
+  'level-1':
+    material: MAGENTA_DYE
+    slot: 11
+    priority: 2
+    update: true
+    display_name: "&d&lLevel 1"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f1 Hour of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$50 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Archery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f5 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '1'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.1'
+
+      - '[console] eco give %player_name% 50'
+      - '[console] clv addExp 150 %player_name%'
+      - '[console] skills xp add %player_name% archery 500 '
+      - '[console] points give %player_name% 5'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 1! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 1
+    update: true
+    display_name: "&d&lLevel 1"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.1' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f1 Hour of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$50 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Archery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f5 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 2   # -- #
+  'level-2':
+    material: LIGHT_BLUE_DYE
+    slot: 12
+    priority: 2
+    update: true
+    display_name: "&b&lLevel 2"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f3 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$100 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Defence XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f10 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '3'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.2'
+
+      - '[console] eco give %player_name% 100'
+      - '[console] clv addExp 150 %player_name%'
+      - '[console] skills xp add %player_name% defence 500 '
+      - '[console] points give %player_name% 10'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 2! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-2':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 1
+    update: true
+    display_name: "&b&lLevel 2"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.2' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f3 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$100 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Defence XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f10 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 3   # -- #
+  'level-3':
+    material: LIME_DYE
+    slot: 13
+    priority: 2
+    update: true
+    display_name: "&a&lLevel 3"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f6 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$150 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Fighting XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f15 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '6'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.3'
+
+      - '[console] eco give %player_name% 150'
+      - '[console] clv addExp 150 %player_name%'
+      - '[console] skills xp add %player_name% fighting 500 '
+      - '[console] points give %player_name% 15'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 3! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-3':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 1
+    update: true
+    display_name: "&a&lLevel 3"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.3' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f6 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$150 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Fighting XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f15 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 4   # -- #
+  'level-4':
+    material: YELLOW_DYE
+    slot: 14
+    priority: 2
+    update: true
+    display_name: "&e&lLevel 4"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f12 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$200 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Endurance XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f20 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '12'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.4'
+
+      - '[console] eco give %player_name% 200'
+      - '[console] clv addExp 150 %player_name%'
+      - '[console] skills xp add %player_name% endurance 500 '
+      - '[console] points give %player_name% 20'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 4! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-4':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 1
+    update: true
+    display_name: "&e&lLevel 4"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.4' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f12 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$200 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Endurance XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f20 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 5   # -- #
+  'level-5':
+    material: RED_DYE
+    slot: 15
+    priority: 2
+    update: true
+    display_name: "&c&lLevel 5"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f24 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$250 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Agility XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f25 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '24'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.5'
+
+      - '[console] eco give %player_name% 250'
+      - '[console] clv addExp 150 %player_name%'
+      - '[console] skills xp add %player_name% agility 500 '
+      - '[console] points give %player_name% 25'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 5! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-5':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 1
+    update: true
+    display_name: "&c&lLevel 5"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.5' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f24 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$250 In-Game Cash"
+      - "&8&l| &f150x FFA XP"
+      - "&8&l| &f500x Agility XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f25 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 6   # -- #
+  'level-6':
+    material: MAGENTA_DYE
+    slot: 20
+    priority: 2
+    update: true
+    display_name: "&d&lLevel 6"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f32 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$100 In-Game Cash"
+      - "&8&l| &f250x FFA XP"
+      - "&8&l| &f500x Sorcery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f30 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '32'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.6'
+
+      - '[console] eco give %player_name% 100'
+      - '[console] clv addExp 250 %player_name%'
+      - '[console] skills xp add %player_name% sorcery 500 '
+      - '[console] points give %player_name% 30'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 6! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-6':
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    priority: 1
+    update: true
+    display_name: "&d&lLevel 6"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.6' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f32 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$100 In-Game Cash"
+      - "&8&l| &f250x FFA XP"
+      - "&8&l| &f500x Sorcery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f30 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 7   # -- #
+  'level-7':
+    material: LIGHT_BLUE_DYE
+    slot: 21
+    priority: 2
+    update: true
+    display_name: "&b&lLevel 7"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f48 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$200 In-Game Cash"
+      - "&8&l| &f350x FFA XP"
+      - "&8&l| &f500x Healing XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f35 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '48'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.7'
+
+      - '[console] eco give %player_name% 200'
+      - '[console] clv addExp 350 %player_name%'
+      - '[console] skills xp add %player_name% healing 500 '
+      - '[console] points give %player_name% 35'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 7! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-7':
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+    priority: 1
+    update: true
+    display_name: "&b&lLevel 7"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.7' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f48 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$200 In-Game Cash"
+      - "&8&l| &f350x FFA XP"
+      - "&8&l| &f500x Healing XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f35 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 8   # -- #
+  'level-8':
+    material: LIME_DYE
+    slot: 22
+    priority: 2
+    update: true
+    display_name: "&a&lLevel 8"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f56 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$300 In-Game Cash"
+      - "&8&l| &f450x FFA XP"
+      - "&8&l| &f500x Archery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f40 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '56'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.8'
+
+      - '[console] eco give %player_name% 300'
+      - '[console] clv addExp 450 %player_name%'
+      - '[console] skills xp add %player_name% archery 500 '
+      - '[console] points give %player_name% 40'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 8! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-8':
+    material: RED_STAINED_GLASS_PANE
+    slot: 22
+    priority: 1
+    update: true
+    display_name: "&a&lLevel 8"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.8' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f56 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$300 In-Game Cash"
+      - "&8&l| &f450x FFA XP"
+      - "&8&l| &f500x Archery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f40 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 9   # -- #
+  'level-9':
+    material: YELLOW_DYE
+    slot: 23
+    priority: 2
+    update: true
+    display_name: "&e&lLevel 9"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f64 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$400 In-Game Cash"
+      - "&8&l| &f550x FFA XP"
+      - "&8&l| &f500x Defence XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f45 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '64'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.9'
+
+      - '[console] eco give %player_name% 400'
+      - '[console] clv addExp 550 %player_name%'
+      - '[console] skills xp add %player_name% defence 500 '
+      - '[console] points give %player_name% 45'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 9! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-9':
+    material: RED_STAINED_GLASS_PANE
+    slot: 23
+    priority: 1
+    update: true
+    display_name: "&e&lLevel 9"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.9' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f64 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$400 In-Game Cash"
+      - "&8&l| &f550x FFA XP"
+      - "&8&l| &f500x Defence XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f45 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 10   # -- #
+  'level-10':
+    material: RED_DYE
+    slot: 24
+    priority: 2
+    update: true
+    display_name: "&c&lLevel 10"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f72 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$500 In-Game Cash"
+      - "&8&l| &f650x FFA XP"
+      - "&8&l| &f500x Fighting XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f50 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '72'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.10'
+
+      - '[console] eco give %player_name% 500'
+      - '[console] clv addExp 650 %player_name%'
+      - '[console] skills xp add %player_name% fighting 500 '
+      - '[console] points give %player_name% 50'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 10! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-10':
+    material: RED_STAINED_GLASS_PANE
+    slot: 24
+    priority: 1
+    update: true
+    display_name: "&c&lLevel 10"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.10' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f72 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$500 In-Game Cash"
+      - "&8&l| &f650x FFA XP"
+      - "&8&l| &f500x Fighting XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f50 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 11   # -- #
+  'level-11':
+    material: MAGENTA_DYE
+    slot: 29
+    priority: 2
+    update: true
+    display_name: "&d&lLevel 11"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f90 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$250 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Endurance XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f55 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '90'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.11'
+
+      - '[console] eco give %player_name% 250'
+      - '[console] clv addExp 500 %player_name%'
+      - '[console] skills xp add %player_name% endurance 500 '
+      - '[console] points give %player_name% 55'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 11! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-11':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    priority: 1
+    update: true
+    display_name: "&d&lLevel 11"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.11' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f90 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$250 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Endurance XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f55 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 12   # -- #
+  'level-12':
+    material: LIGHT_BLUE_DYE
+    slot: 30
+    priority: 2
+    update: true
+    display_name: "&b&lLevel 12"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f100 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$300 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Agility XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f60 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '100'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.12'
+
+      - '[console] eco give %player_name% 300'
+      - '[console] clv addExp 500 %player_name%'
+      - '[console] skills xp add %player_name% agility 500 '
+      - '[console] points give %player_name% 60'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 12! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-12':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 1
+    update: true
+    display_name: "&b&lLevel 12"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.12' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f100 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$300 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Agility XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f60 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 13   # -- #
+  'level-13':
+    material: LIME_DYE
+    slot: 31
+    priority: 2
+    update: true
+    display_name: "&a&lLevel 13"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f112 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$350 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Sorcery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f65 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '112'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.13'
+
+      - '[console] eco give %player_name% 350'
+      - '[console] clv addExp 500 %player_name%'
+      - '[console] skills xp add %player_name% sorcery 500 '
+      - '[console] points give %player_name% 65'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 13! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-13':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    priority: 1
+    update: true
+    display_name: "&a&lLevel 13"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.13' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f112 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$350 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Sorcery XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f65 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 14   # -- #
+  'level-14':
+    material: YELLOW_DYE
+    slot: 32
+    priority: 2
+    update: true
+    display_name: "&e&lLevel 14"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f124 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$450 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Healing XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f70 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '124'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.14'
+
+      - '[console] eco give %player_name% 450'
+      - '[console] clv addExp 500 %player_name%'
+      - '[console] skills xp add %player_name% healing 500 '
+      - '[console] points give %player_name% 70'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 14! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-14':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 1
+    update: true
+    display_name: "&e&lLevel 14"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.14' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f124 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$450 In-Game Cash"
+      - "&8&l| &f500x FFA XP"
+      - "&8&l| &f500x Healing XP &7(/sᴋɪʟʟs)"
+      - "&8&l| &f70 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"
+
+
+
+  # -- #   LEVEL 15   # -- #
+  'level-15':
+    material: RED_DYE
+    slot: 33
+    priority: 2
+    update: true
+    display_name: "&c&lLevel 15"
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f150 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$1,000 In-Game Cash"
+      - "&8&l| &f1,500x FFA XP"
+      - "&8&l| &f100 Coins"
+      - ""
+      - "&#fcfc54&l➥ CLICK TO REDEEM"
+
+    click_requirement:
+      requirements:
+        playtime:
+          type: '>='
+          input: '%statistic_hours_played%'
+          output: '150'
+          deny_commands:
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou don't have enough playtime to rankup to this level!"
+            - "[message] &8&l[&c&l!&8&l] &#FF7C7CYou only have &f%statistic_hours_played% hour(s)&#FF7C7C."
+
+    click_commands:
+      - '[givepermission] meta.playtimelevels.15'
+
+      - '[console] eco give %player_name% 1000'
+      - '[console] clv addExp 1500 %player_name%'
+      - '[console] points give %player_name% 100'
+
+      - "[message] &f"
+      - "[message] &8&l[&a&l!&8&l] &#57FF6BYou are now Level 15! &7(/playtime)"
+      - "[message] &f"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+
+
+  'locked-15':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 1
+    update: true
+    display_name: "&c&lLevel 15"
+    view_requirement:
+      requirements:
+        claimed:
+          type: has permission
+          permission: 'meta.playtimelevels.15' 
+    lore:
+      - "&8Playtime Rewards"
+      - ""
+      - "&#f80026Requirement:"
+      - "&8&l| &f150 Hours of Playtime"
+      - ""
+      - "&#3ae108Rewards:"
+      - "&8&l| &f$1,000 In-Game Cash"
+      - "&8&l| &f1,500x FFA XP"
+      - "&8&l| &f100 Coins"
+      - ""
+      - "&#FF3B3B&l➥ THIS REWARD HAS BEEN CLAIMED"

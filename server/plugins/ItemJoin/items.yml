@@ -1,0 +1,96 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 1
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  skills:
+    id: BELL
+    slot: 1
+    name: '&#FF5454&lSkills &7[Right-Click]'
+    lore:
+    - ''
+    - '&FRight click this item to view the'
+    - '&FSkills Menu'
+    - ''
+    interact:
+    - 'player: skills'
+
+    itemflags: inventory-modify, placement, death-drops, self-drops, death-keep, glowing
+    triggers: join, world-switch, respawn
+    enabled-worlds: spawn
+    
+  playtime:
+    id: CLOCK
+    slot: 3
+    name: '&#5FFFF2&lPlaytime Levels &7[Right-Click]'
+    lore:
+    - ''
+    - '&FRight click this item to view the'
+    - '&FPlaytime Levels Menu'
+    - ''
+    interact:
+    - 'player: playtime'
+
+    itemflags: inventory-modify, placement, death-drops, self-drops, death-keep, glowing
+    triggers: join, world-switch, respawn
+    enabled-worlds: spawn
+    
+  quests:
+    id: HONEYCOMB
+    slot: 5
+    name: '&#5FFF79&lQuests &7[Right-Click]'
+    lore:
+    - ''
+    - '&FRight click this item to view the'
+    - '&FQuests Menu'
+    - ''
+    interact:
+    - 'player: quests'
+
+    itemflags: inventory-modify, placement, death-drops, self-drops, death-keep, glowing
+    triggers: join, world-switch, respawn
+    enabled-worlds: spawn
+    
+  coinshop:
+    id: EMERALD
+    slot: 7
+    name: '&#FFDC39&lCoin Shop &7[Right-Click]'
+    lore:
+    - ''
+    - '&FRight click this item to view the'
+    - '&FCoin Shop'
+    - ''
+    interact:
+    - 'player: coinshop'
+
+    itemflags: inventory-modify, placement, death-drops, self-drops, death-keep, glowing
+    triggers: join, world-switch, respawn
+    enabled-worlds: spawn
+
+
+  shop:
+    id: DIAMOND
+    slot: 8
+    name: '&#2BD5FF&lItem Shop &7[Right-Click]'
+    lore:
+    - ''
+    - '&#55ddfcRight click this item to open'
+    - '&#55ddfcthe Item Shop!'
+    - ''
+    interact:
+    - 'player: shop'
+
+    itemflags: inventory-modify, placement, death-drops, self-drops, glowing
+    triggers: world-switch
+    enabled-worlds: arena

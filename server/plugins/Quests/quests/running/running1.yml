@@ -1,0 +1,41 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+tasks:
+  walking:
+    type: "walking"
+    mode: "running"
+    distance: 10000
+
+display:
+  name: "&a&lRunner I"
+  lore-normal:
+    - "&8Quest Description"
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Run &f10,000 Blocks&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &f300x FFA XP"
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &f{walking:progress}&7/10,000"
+  type: "CHAINMAIL_BOOTS"
+
+rewards:
+  - "cyberlevels addExp 300 {player}"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "&fRun 10,000 Blocks"
+  progress: "&f: &e{walking:progress}/10,000"
+
+options:
+  category: "running"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

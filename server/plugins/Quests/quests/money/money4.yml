@@ -1,0 +1,42 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+tasks:
+  money:
+    type: "essentials_moneyearn"
+    amount: 2000
+
+display:
+  name: "&b&lMoney IV"
+  lore-normal:
+    - "&8Quest Description"
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Earn &f$2,000&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &f1,200x FFA XP"
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &f{money:progress}&7/$2,000"
+  type: "EMERALD"
+
+rewards:
+  - "cyberlevels addExp 1200 {player}"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "&fEarn $2,000"
+  progress: "&f: &e${money:progress}/$2,000"
+
+options:
+  category: "money"
+  repeatable: false
+  requires:
+    - "money3"
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4

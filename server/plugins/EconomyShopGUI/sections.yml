@@ -1,0 +1,57 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+  
+  melee:
+    enable: true
+    material: DIAMOND_SWORD
+    displayname: '#00D8FFMelee Shop'
+    enchantment-glint: true
+    lore:
+    - '&8Shop Category'
+    - ''
+    - '#68FF54➥ &lOPEN SHOP'
+    - ''
+    slot: 10
+  
+  utilities:
+    enable: true
+    material: TOTEM_OF_UNDYING
+    displayname: '#FFFD54Utility Shop'
+    enchantment-glint: true
+    lore:
+    - '&8Shop Category'
+    - ''
+    - '#68FF54➥ &lOPEN SHOP'
+    - ''
+    slot: 12
+  
+  range:
+    enable: true
+    material: BOW
+    displayname: '#B3722ERange Shop'
+    enchantment-glint: true
+    lore:
+    - '&8Shop Category'
+    - ''
+    - '#68FF54➥ &lOPEN SHOP'
+    - ''
+    slot: 14
+  
+  potions:
+    enable: true
+    material: POTION
+    displayname: '#F92ADBPotion Shop'
+    enchantment-glint: true
+    lore:
+    - '&8Shop Category'
+    - ''
+    - '#68FF54➥ &lOPEN SHOP'
+    - ''
+    slot: 16
+    
+Fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: false
+  enable: true
