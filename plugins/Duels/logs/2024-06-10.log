@@ -1,0 +1,136 @@
+[24-06-10 09:20:09] [INFO] [DEBUG] onEnable start -> 1718011209470
+
+[24-06-10 09:20:09] [WARNING] Found no available economy plugin that supports Vault. Money betting will not be available.
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of Config at 1718011209571
+[24-06-10 09:20:09] [INFO] [DEBUG] Config has been loaded. (took 12ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of Lang at 1718011209584
+[24-06-10 09:20:09] [INFO] [DEBUG] Lang has been loaded. (took 17ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of UserManagerImpl at 1718011209601
+[24-06-10 09:20:09] [INFO] [DEBUG] UserManagerImpl has been loaded. (took 1ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of GuiListener at 1718011209602
+[24-06-10 09:20:09] [INFO] [DEBUG] GuiListener has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of KitManagerImpl at 1718011209602
+[24-06-10 09:20:09] [INFO] KitManagerImpl: Loaded 0 kit(s).
+[24-06-10 09:20:09] [INFO] [DEBUG] KitManagerImpl has been loaded. (took 23ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of ArenaManagerImpl at 1718011209626
+[24-06-10 09:20:09] [INFO] ArenaManagerImpl: Loaded 0 arena(s).
+[24-06-10 09:20:09] [INFO] [DEBUG] ArenaManagerImpl has been loaded. (took 2ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of SettingsManager at 1718011209628
+[24-06-10 09:20:09] [INFO] [DEBUG] SettingsManager has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of PlayerInfoManager at 1718011209628
+[24-06-10 09:20:09] [WARNING] PlayerInfoManager: Lobby location was not set, using world's spawn location as default. Use the command /duels setlobby in-game to set the lobby location.
+[24-06-10 09:20:09] [INFO] [DEBUG] PlayerInfoManager has been loaded. (took 1ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of SpectateManagerImpl at 1718011209629
+[24-06-10 09:20:09] [INFO] [DEBUG] SpectateManagerImpl has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of BettingManager at 1718011209630
+[24-06-10 09:20:09] [INFO] BettingManager: Economy plugin supporting Vault was not found! Money betting feature will be automatically disabled.
+[24-06-10 09:20:09] [INFO] [DEBUG] BettingManager has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of InventoryManager at 1718011209630
+[24-06-10 09:20:09] [INFO] [DEBUG] InventoryManager has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of DuelManager at 1718011209631
+[24-06-10 09:20:09] [INFO] [DEBUG] DuelManager has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of QueueManager at 1718011209631
+[24-06-10 09:20:09] [INFO] QueueManager: Loaded 0 queue(s).
+[24-06-10 09:20:09] [INFO] [DEBUG] QueueManager has been loaded. (took 2ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of QueueSignManagerImpl at 1718011209633
+[24-06-10 09:20:09] [INFO] QueueSignManagerImpl: Loaded 0 queue sign(s).
+[24-06-10 09:20:09] [INFO] [DEBUG] QueueSignManagerImpl has been loaded. (took 1ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of RequestManager at 1718011209634
+[24-06-10 09:20:09] [INFO] [DEBUG] RequestManager has been loaded. (took 0ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of Teleport at 1718011209634
+[24-06-10 09:20:09] [INFO] [DEBUG] Teleport has been loaded. (took 1ms)
+[24-06-10 09:20:09] [INFO] [DEBUG] Starting load of ExtensionManager at 1718011209635
+[24-06-10 09:20:09] [INFO] [DEBUG] ExtensionManager has been loaded. (took 0ms)
+[24-06-10 09:20:18] [INFO] No updates were available. You are on the latest version!
+[24-06-10 09:56:39] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:56:40] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:56:40] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:56:41] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:56:41] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:56:41] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:57:24] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:57:24] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:57:25] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:57:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:20] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:21] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:22] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:23] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:34] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:34] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:34] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:34] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:35] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:35] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:35] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:36] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:36] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:41] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:41] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-10 09:58:54] [WARNING] GamingHuzai has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:43] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:44] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:44] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:45] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:45] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:45] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:46] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:46] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:46] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:46] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:46] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:47] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:48] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:49] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:49] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:49] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:49] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:49] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:51] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:51] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:51] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:51] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:52] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:52] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:52] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:52] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:52] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:53] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:53] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:53] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:53] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:53] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:54] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:54] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:54] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:54] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:54] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:55] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:56] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:56] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:56] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:56] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:56] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:57] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:57] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:57] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:57] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:57] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:58] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:58] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:58] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.
+[24-06-11 01:48:58] [WARNING] MinimumSquid has attempted to use a kit item while not in duel, but was prevented by KitItemListener.

@@ -1,0 +1,104 @@
+options:
+ prefix: &a&lꜰᴀᴅᴇᴍᴄ &8|
+ color: &a
+ permission: op
+ chatformat: &f%player%: %unformatted message%
+ serverName: &a&lꜰᴀᴅᴇᴍᴄ
+ discordLink: https://dc.gg/fademc
+
+on chat:
+ set chat format to "{@chatformat}"
+ if {mutechat} is set:
+  if player does not have permission "{@permission}":
+   cancel event
+   send "&cThe chat is muted!"
+  
+command gmc [<player>]:
+ permission: {@permission}
+ trigger:
+  if arg-1 is not set:
+   set player's gamemode to creative
+   send "{@prefix} &fSet your gamemode to {@color}Creative"
+  else:
+   set arg-1's gamemode to creative
+   send "{@prefix} &fSet {@color}%arg-1%&f's gamemode to {@color}Creative"
+   
+command gms [<player>]:
+ permission: {@permission}
+ trigger:
+  if arg-1 is not set:
+   set player's gamemode to Survival
+   send "{@prefix} &fSet your gamemode to {@color}Survival"
+  else:
+   set arg-1's gamemode to Survival
+   send "{@prefix} &fSet {@color}%arg-1%&f's gamemode to {@color}Survival"
+   
+command gmsp [<player>]:
+ permission: {@permission}
+ trigger:
+  if arg-1 is not set:
+   set player's gamemode to Spectator
+   send "{@prefix} &fSet your gamemode to {@color}Spectator"
+  else:
+   set arg-1's gamemode to Spectator
+   send "{@prefix} &fSet {@color}%arg-1%&f's gamemode to {@color}Spectator"
+   
+command cc:
+ aliases: clearchat
+ permission: {@permission}
+ trigger:
+  loop 100 times:
+   broadcast " "
+  wait 5 ticks
+  broadcast "                {@prefix} {@color}%player% &fCleared the chat!"
+  
+command mc:
+ aliases: mutechat
+ permission: {@permission}
+ trigger:
+  if {mutechat} is not set:
+   set {mutechat} to true
+   broadcast "                {@prefix} {@color}%player% &fMuted the chat!"
+  else:
+   delete {mutechat}
+   broadcast "                {@prefix} {@color}%player% &fUnmuted the chat!"
+   
+command setspawn:
+ permission: {@permission}
+ trigger:
+  set {spawn} to player's location
+  send "{@prefix} &fSet spawn location to {@color}%{spawn}%!"
+  
+command spawn:
+ trigger:
+  if {spawn} is not set:
+   send "{@prefix} &fCurrently no spawn point! Tell an &c[ADMIN]&f to set one!"
+   stop
+  if {spawn} is set:
+   send "{@prefix} &fTeleporting!" to player
+   set {_x} to x-coordinate of player
+   set {_z} to z-coordinate of player
+   loop 0 times:
+    play sound "entity.enderman.teleport" at pitch 2 to player
+    send action bar "{@prefix} &fTeleporting in %6-loop-value%" to player
+    if "%x-coordinate of player% - %z-coordinate of player%" != "%{_x}% - %{_z}%":
+     send "{@prefix} &fYou moved!"
+     send action bar "{@prefix} &fYou moved!" to player
+     stop 
+    wait 1 second
+   teleport player to {spawn}
+   play sound "entity.enderman.teleport" at pitch 2 to player
+   
+command /discord: 
+    aliases: /dc, /discordlink, /discord
+    trigger:
+        play sound "entity.slime.hurt" at pitch 2 to player
+        send actionbar "<##006FFF>&lʟɪɴᴋ sᴇɴᴛ"
+        send "<##006FFF>&lDISCORD SERVER"
+        send ""
+        send "&7Did you know that {@serverName} &7has a <##006FFF>discord server?"
+        send "&7You can participate in Giveaways &"
+        send "&7support the <##006FFF>server"
+        send ""
+        send "<##006FFF>&lVISIT TODAY"
+        send " <##006FFF>&n{@discordLink}"

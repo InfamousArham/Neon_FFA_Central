@@ -1,2 +1,0 @@
-on death of player:
-    console command "essentials:eco give %attacker% 5"

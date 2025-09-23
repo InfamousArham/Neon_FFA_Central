@@ -1,0 +1,51 @@
+inv:
+  size: 27
+  alias: smpkit
+  permission: null
+  id: smpffa
+  title: §x§0§4§F§B§4§2§lѕᴍᴘꜰꜰᴀ
+  targetPlayerOption: DISABLED
+  items:
+    13:
+      -959450865470379057:
+        shiftrightaction: null
+        item:
+          v: 3700
+          type: GRASS_BLOCK
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#04FB42","text":"ѕ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#12FC5A","text":"ᴍ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#21FD72","text":"ᴘ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2FFD89","text":"ꜰ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3EFEA1","text":"ꜰ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4CFFB9","text":"ᴀ"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+              Click To "},{"bold":true,"italic":false,"color":"yellow","text":"JOIN"}],"text":""}'
+        showPermission: null
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands:
+          - mvtp smpkit
+          - <server>playerkits give smpkit <player>
+        shiftleftaction: null
+        middleaction: null
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands: []
+id: smpffa

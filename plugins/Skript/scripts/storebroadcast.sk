@@ -1,0 +1,61 @@
+#-- THANK YOU --
+
+#Thank you for using my skripts. For any further assistance or troubles make sure,
+#to join my discord server (can be found on the builtbybit page), or DM me on discord. (@acknown)
+
+#These options below can be edited, and should be.
+
+options:
+
+    #[PERMISSIONS & PERMISSION MESSAGES]
+    permission-msg: <##FF0000> Sorry, but you do not have permission to access this! #The buy message command's permission message, that appears when someone tries to use the command, but doesn't have permission to.
+    permission: sk.buymsg #The permission for players to be able to use the "/storebc" command. 
+
+    #[COLOR CODES] You can add as many colors as you want, just follow the examples below.
+    maincolor: <##9eff00> #The main color code. You can use minecraft color codes (eg. &e, &3) or hex color codes here (eg. <##FF0000>)
+    secondarycolor: <##c4ff00> #The secondary color code. You can use minecraft color codes (eg. &e, &3) or hex color codes here (eg. <##FF0000>)
+    textcolor: &f #What color should the text be? You can use minecraft color codes (eg. &e, &3) or hex color codes here (eg. <##FF0000>)
+    bold: true #Should the purchased item appear in bold?
+
+    #[LINKS]
+    store: https://fademcc.tebex.io/ #Please edit this to your store.
+    store-text: fademcc.tebex.io #Usually the same as your store link, but without the "https://"
+
+    #[SOUNDS]
+    sound: UI.TOAST.CHALLENGE_COMPLETE #The sound that is played when someone purchases something.
+
+#I don't recommend editing anything below here.
+
+command /storebc [<string>] [<offlineplayer>]:
+    aliases: storebroadcast, broadcaststore, bcstore, buymsg #Alternative commands, that do the same.
+    permission: {@permission}
+    permission message: {@permission-msg}
+    trigger:
+        if arg-1 isn't set:
+            send "&fPlease provide a valid option:"
+            send ""
+            send "&8» &7/storebc <text> <player>" #For spaces in text, please use the "_" character (eg. legend_rank)
+            send "&8» &7Example: &f/storebc legend_rank GamerGirl124"
+        else if arg-2 isn't set:
+            send "&fPlease provide a valid option:"
+            send ""
+            send "&8» &7/storebc <text> <player>" #For spaces in text, please use the "_" character (eg. legend_rank)
+            send "&8» &7Example: &f/storebc legend_rank GamerGirl124"
+        else:
+            set {_temp-text} to arg-1
+            replace all "_" in {_temp-text} with " "
+            if {@bold} = true:
+                set {_} to "&l"
+            else:
+                set {_} to ""
+            broadcast ""
+            broadcast "                                 {@maincolor}&lPURCHASE"
+            broadcast ""
+            broadcast "          {@secondarycolor}%arg-2% {@textcolor}has just bought {@secondarycolor}%{_}%%{_temp-text}%{@textcolor}! GGs!"
+            broadcast "          {@textcolor}If you wish to support us visit {@secondarycolor}&n<link:{@store}>{@store-text}"
+            broadcast ""
+            play sound "{@sound}" with volume 1 to all players
+
+#[NOTE]
+
+#If you wish to have more messages with custom colors, you can copy the one above and just change the color codes.

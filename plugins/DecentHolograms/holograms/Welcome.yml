@@ -1,0 +1,28 @@
+location: world:-5.533:94.000:0.438
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Welcome to the &2&lFADE MC &6&lFFA
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&eChampion! &fBrace yourself for non-stop action'
+    height: 0.3
+  - content: and epic battles in the &2Fade Mc &6FFA &fserver.
+    height: 0.3
+  - content: Let your &bskills &fshine and your &bvictories
+    height: 0.3
+  - content: echo throughout the battlefield!
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&9&lJOIN OUR DISCORD'
+    height: 0.3
+  - content: '&aDC.GG/FADEMC'
+    height: 0.3
+  actions: {}

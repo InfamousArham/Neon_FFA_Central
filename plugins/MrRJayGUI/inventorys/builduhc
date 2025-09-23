@@ -1,0 +1,47 @@
+inv:
+  size: 27
+  alias: builduhc
+  permission: null
+  id: builduhc
+  title: §x§F§B§7§B§1§3§lʙᴜɪʟᴅᴜʜᴄ
+  targetPlayerOption: DISABLED
+  items:
+    13:
+      5511272746682890002:
+        shiftrightaction: null
+        item:
+          v: 3700
+          type: COBBLESTONE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB7B13","text":"ʙ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB821F","text":"ᴜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB892C","text":"ɪ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9038","text":"ʟ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9644","text":"ᴅ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9D50","text":"ᴜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBA45D","text":"ʜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBAB69","text":"ᴄ"}],"text":""}'
+        showPermission: null
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands:
+          - mvtp builduhc
+          - <server>playerkits give builduhc <player>
+        shiftleftaction: null
+        middleaction: null
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands: []

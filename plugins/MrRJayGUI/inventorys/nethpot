@@ -1,0 +1,47 @@
+inv:
+  size: 27
+  alias: nethpot
+  permission: null
+  id: nethpot
+  title: §x§0§7§8§D§F§B§lɴᴇᴛʜᴘᴏᴛ
+  targetPlayerOption: DISABLED
+  items:
+    13:
+      -2004948016770899148:
+        shiftrightaction: null
+        item:
+          v: 3700
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#078DFB","text":"ɴ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#139CFC","text":"ᴇ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1EAAFC","text":"ᴛ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2AB9FD","text":"ʜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#35C7FE","text":"ᴘ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#41D6FE","text":"ᴏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4CE4FF","text":"ᴛ"}],"text":""}'
+        showPermission: null
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands:
+          - mvtp nethpot
+          - <server>playerkits give nethpot <player>
+        shiftleftaction: null
+        middleaction: null
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands: []

@@ -1,0 +1,30 @@
+name: GamingHuzai
+kits:
+  crystalffa:
+    cooldown: 1715379567606
+    one_time: false
+    bought: false
+  rtp:
+    cooldown: 1715431709198
+    one_time: false
+    bought: false
+  tank:
+    cooldown: 1717849189129
+    one_time: false
+    bought: false
+  nethpot:
+    cooldown: 1716673730485
+    one_time: false
+    bought: false
+  waterffa:
+    cooldown: 1717683838429
+    one_time: false
+    bought: false
+  BowPVP:
+    cooldown: 1717849188139
+    one_time: false
+    bought: false
+  axepvp:
+    cooldown: 1717849189621
+    one_time: false
+    bought: false

@@ -1,8 +1,0 @@
-no-rewards: '&8[&2&l!&8] &2&lDaily &7→ &fYou do not have any rewards at the moment.'
-cooldown-msg: '&8[&2&l!&8] &2&lDaily &7→ &fTime until next reward: %time%'
-no-permission: '&8[&2&l!&8] &2&lDaily &7→ &fYou do not have permission to do '
-reward-available: '&8[&2&l!&8] &2&lDaily &7→ &fYou have unclaimed rewards, do &e/reward
-  &fto claim!'
-PlaceholderAPI:
-  reward-available: '&#51FF55Rewards Available'
-  no-rewards: '&#FF3F3FNo Rewards Available'

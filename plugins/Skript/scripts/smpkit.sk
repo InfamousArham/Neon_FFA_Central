@@ -1,0 +1,5 @@
+on death:
+    if attacker is in world "smpkit":
+        execute console command "/heal %attacker%"
+        execute console command "/clear %attacker%"
+        execute console command "/kit give smpkit  %attacker%"

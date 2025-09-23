@@ -1,0 +1,28 @@
+inv:
+  size: 27
+  alias: duels
+  id: duels
+  title: §x§F§B§9§3§0§9§lᴅᴜᴇʟѕ
+  targetPlayerOption: DISABLED
+  items:
+    '13':
+      '4660105223994160804':
+        item:
+          v: 3700
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"text":"","extra":[{"text":"ᴅ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FB7100","bold":true},{"text":"ᴜ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FC8117","bold":true},{"text":"ᴇ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FD902E","bold":true},{"text":"ʟ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FEA044","bold":true},{"text":"ѕ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFAF5B","bold":true}]}'
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - mvtp duels

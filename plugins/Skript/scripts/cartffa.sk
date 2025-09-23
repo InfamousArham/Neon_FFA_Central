@@ -1,0 +1,5 @@
+on death:
+    if attacker is in world "cartffa":
+        execute console command "/heal %attacker%"
+        execute console command "/clear %attacker%"
+        execute console command "/playerkits give cartpvp  %attacker%"

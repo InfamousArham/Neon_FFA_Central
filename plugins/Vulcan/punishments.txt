@@ -1,0 +1,1086 @@
+--------------[ Xarrier was punished for Aim (Type Y) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 10:16:26
+
+Location:
+ - World: world
+ - X: -191.04387914217142
+ - Y: 48.0
+ - Z: -143.90885243937535
+
+Information:
+ - UUID: f43ec276-0370-4fd3-a922-30780cb7fd0b
+ - Keep Alive Ping: 238
+ - Transaction Ping: 269
+ - Server TPS: 20
+ - Sensitivity: 171
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 14.45 seconds ago
+
+Total Violations: 13
+ - Combat Violations: 13
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 258
+ - Since Riptide Ticks: 5758
+ - Flying Delay: 28
+ - Since Velocity Ticks: 289
+ - Since Firework Ticks: 5758
+ - Ticks Existed: 7119
+ - Since Vehicle Ticks: 5658
+ - Since Liquid Ticks: 5658
+ - Queued Transactions: 1
+ - Joined: 531 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Aim (Type H) [VL: 1] (Invalid sensitivity.)
+ - Aim (Type K) [VL: 3] (Not constant rotations.)
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Reach (Type A) [VL: 4] (Hit from too far away.)
+ - Timer (Type A) [VL: 1] (Increased game speed.)
+
+Blocks Nearby: [BROWN_WOOL, DARK_OAK_STAIRS, OAK_PLANKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DARK_OAK_STAIRS, DARK_OAK_STAIRS, OAK_PLANKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DARK_OAK_STAIRS, OAK_PLANKS, JUNGLE_PLANKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:829t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 10:33:58
+
+Location:
+ - World: world_the_end
+ - X: -2.4594014532464437
+ - Y: 77.81610926093823
+ - Z: -31.550789679483138
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 7
+ - Transaction Ping: 12
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 12.3 seconds ago
+
+Total Violations: 46
+ - Combat Violations: 0
+ - Movement Violations: 40
+ - Player Violations: 6
+
+Misc Information:
+ - Since Teleport Ticks: 346
+ - Since Riptide Ticks: 724
+ - Flying Delay: 64
+ - Since Velocity Ticks: 246
+ - Since Firework Ticks: 724
+ - Ticks Existed: 534
+ - Since Vehicle Ticks: 624
+ - Since Liquid Ticks: 624
+ - Queued Transactions: 0
+ - Joined: 53 seconds ago
+ - Holding Item (Main Hand): ItemStack{RED_BED x 1}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Flight (Type B) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 4] (Invalid jump motion.)
+ - Jump (Type B) [VL: 7] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type B) [VL: 7] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 7] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 7] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 5] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+ - Invalid (Type E) [VL: 5] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ SCARY_GAMER_xD was punished for Scaffold (Type C) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 10:41:48
+
+Location:
+ - World: world_the_end
+ - X: 14.61509096042081
+ - Y: 64.17675927506424
+ - Z: 4.3731867621412945
+
+Information:
+ - UUID: 2d43f9b9-0ea7-312c-8c7f-4ed8f0c23487
+ - Keep Alive Ping: 110
+ - Transaction Ping: 139
+ - Server TPS: 20
+ - Sensitivity: 80
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 1.45 seconds ago
+
+Total Violations: 16
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 16
+
+Misc Information:
+ - Since Teleport Ticks: 1664
+ - Since Riptide Ticks: 1730
+ - Flying Delay: 50
+ - Since Velocity Ticks: 29
+ - Since Firework Ticks: 1730
+ - Ticks Existed: 1564
+ - Since Vehicle Ticks: 1630
+ - Since Liquid Ticks: 1630
+ - Queued Transactions: 1
+ - Joined: 127 seconds ago
+ - Holding Item (Main Hand): ItemStack{GLOWSTONE x 10}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Air Place (Type A) [VL: 4] (Invalid block placement.)
+ - Inventory (Type A) [VL: 2] (Sprinting while clicking in inventory.)
+ - Scaffold (Type B) [VL: 5] (Invalid interact.)
+ - Scaffold (Type C) [VL: 5] (Sprinting while bridging.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [FIRE_RESISTANCE:738t-x0, ABSORPTION:38t-x1, REGENERATION:838t-x1]
+---------------------------------------------------------------------------
+
+
+--------------[ bhaiyag was punished for Ground Spoof (Type C) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 10:49:00
+
+Location:
+ - World: crystalffa
+ - X: 90.67666690458468
+ - Y: 173.74718866953233
+ - Z: 111.91231318438551
+
+Information:
+ - UUID: c6aa5a01-8f41-3002-8535-b7c7e1ed3b3e
+ - Keep Alive Ping: 222
+ - Transaction Ping: 171
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 31.1 seconds ago
+
+Total Violations: 41
+ - Combat Violations: 0
+ - Movement Violations: 14
+ - Player Violations: 27
+
+Misc Information:
+ - Since Teleport Ticks: 284
+ - Since Riptide Ticks: 1251
+ - Flying Delay: 2
+ - Since Velocity Ticks: 622
+ - Since Firework Ticks: 1251
+ - Ticks Existed: 1192
+ - Since Vehicle Ticks: 1151
+ - Since Liquid Ticks: 1151
+ - Queued Transactions: 0
+ - Joined: 109 seconds ago
+ - Holding Item (Main Hand): ItemStack{NETHERITE_SWORD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={MENDING=1, DAMAGE_ALL=5, DURABILITY=3}}}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Step (Type C) [VL: 1] (Reverse step.)
+ - Ground Spoof (Type A) [VL: 12] (Spoofed onGround value.)
+ - Ground Spoof (Type C) [VL: 15] (Spoofed OnGround value.)
+ - VClip (Type A) [VL: 13] (Large vertical movement.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ SCARY_GAMER_xD was punished for Air Place (Type A) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 10:57:24
+
+Location:
+ - World: builduhc
+ - X: 23.010683466903146
+ - Y: 92.0
+ - Z: 6.114368781271923
+
+Information:
+ - UUID: 2d43f9b9-0ea7-312c-8c7f-4ed8f0c23487
+ - Keep Alive Ping: 121
+ - Transaction Ping: 130
+ - Server TPS: 20
+ - Sensitivity: 80
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 1.35 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 10
+
+Misc Information:
+ - Since Teleport Ticks: 305
+ - Since Riptide Ticks: 6368
+ - Flying Delay: 50
+ - Since Velocity Ticks: 27
+ - Since Firework Ticks: 6368
+ - Ticks Existed: 6981
+ - Since Vehicle Ticks: 6268
+ - Since Liquid Ticks: 3848
+ - Queued Transactions: 0
+ - Joined: 586 seconds ago
+ - Holding Item (Main Hand): ItemStack{RESPAWN_ANCHOR x 28}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Air Place (Type A) [VL: 10] (Invalid block placement.)
+
+Blocks Nearby: [AIR, AIR, GLASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [FIRE_RESISTANCE:770t-x0, ABSORPTION:70t-x1, REGENERATION:870t-x1]
+---------------------------------------------------------------------------
+
+
+--------------[ King_Gamer_ProYT was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 05-26-2024
+ - Time: 11:11:34
+
+Location:
+ - World: crystalffa
+ - X: 131.01843460812685
+ - Y: 153.0
+ - Z: 39.45413836170829
+
+Information:
+ - UUID: 841e905f-e7af-39e6-9e49-e8e466253631
+ - Keep Alive Ping: 318
+ - Transaction Ping: 370
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 7.35 seconds ago
+
+Total Violations: 38
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 2
+
+Misc Information:
+ - Since Teleport Ticks: 148
+ - Since Riptide Ticks: 11473
+ - Flying Delay: 116
+ - Since Velocity Ticks: 147
+ - Since Firework Ticks: 9830
+ - Ticks Existed: 12019
+ - Since Vehicle Ticks: 11373
+ - Since Liquid Ticks: 11373
+ - Queued Transactions: 1
+ - Joined: 954 seconds ago
+ - Holding Item (Main Hand): ItemStack{ENDER_PEARL x 12}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Flight (Type B) [VL: 3] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 2] (Invalid friction.)
+ - Speed (Type B) [VL: 3] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 10] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 10] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 8] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+ - Inventory (Type A) [VL: 1] (Sprinting while clicking in inventory.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:1969t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ MananGaming3 was punished for Kill Aura (Type A) ]--------------
+
+Date & Time:
+ - Date: 05-29-2024
+ - Time: 07:02:57
+
+Location:
+ - World: axepvp
+ - X: 14.337879699974284
+ - Y: 6.166109260938214
+ - Z: 0.9487714335244055
+
+Information:
+ - UUID: a51c971b-d4b9-30a2-90de-8adbf9b5d29a
+ - Keep Alive Ping: 190
+ - Transaction Ping: 191
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 1.1 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 4
+ - Movement Violations: 1
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 881
+ - Since Riptide Ticks: 1555
+ - Flying Delay: 41
+ - Since Velocity Ticks: 22
+ - Since Firework Ticks: 1555
+ - Ticks Existed: 1573
+ - Since Vehicle Ticks: 1455
+ - Since Liquid Ticks: 1455
+ - Queued Transactions: 1
+ - Joined: 140 seconds ago
+ - Holding Item (Main Hand): ItemStack{DIAMOND_AXE x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, Damage=26}}
+ - Holding Item (Off Hand): ItemStack{SHIELD x 1}
+
+All Violations:
+ - Aim (Type C) [VL: 1] (Repeated yaw values.)
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+ - Motion (Type D) [VL: 1] (Too small Y-axis change.)
+
+Blocks Nearby: [AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS, AIR, LARGE_FERN, AIR, AIR, LARGE_FERN, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Kill Aura (Type A) ]--------------
+
+Date & Time:
+ - Date: 06-08-2024
+ - Time: 15:43:21
+
+Location:
+ - World: cartffa
+ - X: -26.819766137285608
+ - Y: 23.00133597911215
+ - Z: 46.69999998807907
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 241
+ - Transaction Ping: 294
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 1.1 seconds ago
+
+Total Violations: 17
+ - Combat Violations: 4
+ - Movement Violations: 12
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 427
+ - Since Riptide Ticks: 855
+ - Flying Delay: 59
+ - Since Velocity Ticks: 22
+ - Since Firework Ticks: 855
+ - Ticks Existed: 764
+ - Since Vehicle Ticks: 755
+ - Since Liquid Ticks: 755
+ - Queued Transactions: 1
+ - Joined: 123 seconds ago
+ - Holding Item (Main Hand): ItemStack{NETHERITE_SWORD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={MENDING=1, DAMAGE_ALL=5, DURABILITY=3}, Damage=2, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+ - Holding Item (Off Hand): ItemStack{GOLDEN_APPLE x 63, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+
+All Violations:
+ - Hitbox (Type A) [VL: 1] (Attacked while not looking at target.)
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+ - Speed (Type B) [VL: 4] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 4] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 4] (Moving too quickly on the ground.)
+ - Invalid (Type E) [VL: 1] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [AIR, AIR, STONE, AIR, AIR, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftItem, CraftItem, CraftItem]
+Potion Effects: [PotionEffect{amplifier=1, duration=677, type=CraftPotionEffectType[minecraft:regeneration], ambient=false, particles=true, icon=true, hiddenEffect=null}, PotionEffect{amplifier=0, duration=577, type=CraftPotionEffectType[minecraft:fire_resistance], ambient=false, particles=true, icon=true, hiddenEffect=null}]
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-08-2024
+ - Time: 15:44:08
+
+Location:
+ - World: cartffa
+ - X: -25.63002515380336
+ - Y: 21.0
+ - Z: 46.69999998807907
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 113
+ - Transaction Ping: 290
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 5.65 seconds ago
+
+Total Violations: 32
+ - Combat Violations: 0
+ - Movement Violations: 31
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 1
+ - Since Riptide Ticks: 857
+ - Flying Delay: 57
+ - Since Velocity Ticks: 113
+ - Since Firework Ticks: 857
+ - Ticks Existed: 701
+ - Since Vehicle Ticks: 757
+ - Since Liquid Ticks: 389
+ - Queued Transactions: 1
+ - Joined: 43 seconds ago
+ - Holding Item (Main Hand): ItemStack{COBWEB x 45, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+ - Holding Item (Off Hand): ItemStack{GOLDEN_APPLE x 62, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+
+All Violations:
+ - Flight (Type B) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type B) [VL: 3] (Invalid jump motion.)
+ - Speed (Type B) [VL: 4] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 5] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 4] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 14] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [STONE, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, STONE, STONE, AIR, COBWEB, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, STONE, STONE, STONE, STONE, STONE, COBWEB, COBWEB, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Kill Aura (Type A) ]--------------
+
+Date & Time:
+ - Date: 06-08-2024
+ - Time: 15:44:33
+
+Location:
+ - World: cartffa
+ - X: -26.678925304617284
+ - Y: 21.0
+ - Z: 46.345446613180876
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 63
+ - Transaction Ping: 280
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 2.65 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 3
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 456
+ - Since Riptide Ticks: 536
+ - Flying Delay: 69
+ - Since Velocity Ticks: 53
+ - Since Firework Ticks: 536
+ - Ticks Existed: 356
+ - Since Vehicle Ticks: 436
+ - Since Liquid Ticks: 436
+ - Queued Transactions: 1
+ - Joined: 22 seconds ago
+ - Holding Item (Main Hand): ItemStack{NETHERITE_SWORD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={MENDING=1, DAMAGE_ALL=5, DURABILITY=3}, Damage=8, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+ - Holding Item (Off Hand): ItemStack{GOLDEN_APPLE x 61, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+
+All Violations:
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [AIR, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=GamingHuzai}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-08-2024
+ - Time: 15:49:30
+
+Location:
+ - World: cartffa
+ - X: -8.029092862640697
+ - Y: 46.91924645375164
+ - Z: 68.78061746398652
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 263
+ - Transaction Ping: 303
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 73.6 seconds ago
+
+Total Violations: 39
+ - Combat Violations: 0
+ - Movement Violations: 35
+ - Player Violations: 4
+
+Misc Information:
+ - Since Teleport Ticks: 99
+ - Since Riptide Ticks: 2860
+ - Flying Delay: 40
+ - Since Velocity Ticks: 1472
+ - Since Firework Ticks: 2860
+ - Ticks Existed: 3115
+ - Since Vehicle Ticks: 2760
+ - Since Liquid Ticks: 1988
+ - Queued Transactions: 1
+ - Joined: 294 seconds ago
+ - Holding Item (Main Hand): ItemStack{OAK_PLANKS x 64, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, PublicBukkitValues={
+    "duels:duelskitcontent": 1b
+}}}
+
+All Violations:
+ - Jump (Type A) [VL: 7] (Invalid jump motion.)
+ - Jump (Type B) [VL: 7] (Invalid jump motion.)
+ - Speed (Type B) [VL: 7] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 7] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 7] (Moving too quickly on the ground.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+ - Invalid (Type E) [VL: 3] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ sharpygamerYT was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-08-2024
+ - Time: 15:52:19
+
+Location:
+ - World: world
+ - X: 259.5085216197898
+ - Y: 207.25220334025371
+ - Z: 336.0337220354913
+
+Information:
+ - UUID: 89f33b49-fa1b-3314-9f13-a44f58541069
+ - Keep Alive Ping: 262
+ - Transaction Ping: 335
+ - Server TPS: 20
+ - Sensitivity: 98
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20
+ - Last Damage: 12.35 seconds ago
+
+Total Violations: 43
+ - Combat Violations: 0
+ - Movement Violations: 35
+ - Player Violations: 8
+
+Misc Information:
+ - Since Teleport Ticks: 70
+ - Since Riptide Ticks: 2097
+ - Flying Delay: 40
+ - Since Velocity Ticks: 247
+ - Since Firework Ticks: 2097
+ - Ticks Existed: 2151
+ - Since Vehicle Ticks: 1997
+ - Since Liquid Ticks: 157
+ - Queued Transactions: 1
+ - Joined: 167 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type B) [VL: 3] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type B) [VL: 9] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 9] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 9] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 4] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+ - Invalid (Type E) [VL: 7] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ HackerPlayz1_ was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-10-2024
+ - Time: 11:27:16
+
+Location:
+ - World: world
+ - X: -4.034702616984885
+ - Y: 92.49390748022948
+ - Z: -1.8247534767717815
+
+Information:
+ - UUID: bdaa8d31-b4bc-3aa4-a3d8-582e75a81ef0
+ - Keep Alive Ping: 0
+ - Transaction Ping: 174
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: ADVENTURE
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 6.6 seconds ago
+
+Total Violations: 33
+ - Combat Violations: 0
+ - Movement Violations: 32
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 29
+ - Since Riptide Ticks: 230
+ - Flying Delay: 59
+ - Since Velocity Ticks: 132
+ - Since Firework Ticks: 230
+ - Ticks Existed: 32
+ - Since Vehicle Ticks: 130
+ - Since Liquid Ticks: 130
+ - Queued Transactions: 1
+ - Joined: 3 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type A) [VL: 10] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 6] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 6] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Strafe (Type A) [VL: 9] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ HackerPlayz1_ was punished for Kill Aura (Type A) ]--------------
+
+Date & Time:
+ - Date: 06-10-2024
+ - Time: 13:02:02
+
+Location:
+ - World: world
+ - X: -29.783468654858716
+ - Y: 84.5
+ - Z: 1.1448870798296686
+
+Information:
+ - UUID: bdaa8d31-b4bc-3aa4-a3d8-582e75a81ef0
+ - Keep Alive Ping: 180
+ - Transaction Ping: 186
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 22.3 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 3
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 560
+ - Since Riptide Ticks: 4707
+ - Flying Delay: 52
+ - Since Velocity Ticks: 446
+ - Since Firework Ticks: 4707
+ - Ticks Existed: 4814
+ - Since Vehicle Ticks: 4607
+ - Since Liquid Ticks: 4607
+ - Queued Transactions: 0
+ - Joined: 469 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [BROWN_STAINED_GLASS, BROWN_STAINED_GLASS, SPRUCE_PLANKS, AIR, AIR, SPRUCE_STAIRS, AIR, AIR, AIR, AIR, AIR, AIR, BROWN_STAINED_GLASS, SPRUCE_PLANKS, GRASS_BLOCK, AIR, SPRUCE_STAIRS, BEACON, AIR, AIR, AIR, AIR, AIR, AIR, BROWN_STAINED_GLASS, BROWN_STAINED_GLASS, SPRUCE_PLANKS, AIR, AIR, SPRUCE_STAIRS, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=CIT-e29281865921}, CraftArmorStand, CraftArmorStand]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ HackerPlayz1_ was punished for Kill Aura (Type A) ]--------------
+
+Date & Time:
+ - Date: 06-10-2024
+ - Time: 13:05:34
+
+Location:
+ - World: world
+ - X: -46.90714250336573
+ - Y: 84.0
+ - Z: 1.004609691933015
+
+Information:
+ - UUID: bdaa8d31-b4bc-3aa4-a3d8-582e75a81ef0
+ - Keep Alive Ping: 176
+ - Transaction Ping: 179
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 74.55 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 3
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1491
+ - Since Riptide Ticks: 1560
+ - Flying Delay: 48
+ - Since Velocity Ticks: 1491
+ - Since Firework Ticks: 1560
+ - Ticks Existed: 1391
+ - Since Vehicle Ticks: 1460
+ - Since Liquid Ticks: 1460
+ - Queued Transactions: 1
+ - Joined: 200 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [STONE, STONE, LIGHT_GRAY_WOOL, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SPRUCE_STAIRS, SPRUCE_STAIRS, SPRUCE_PLANKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, BROWN_STAINED_GLASS, BROWN_STAINED_GLASS, BROWN_STAINED_GLASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ SCARY_GAMER_xD was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-11-2024
+ - Time: 05:25:28
+
+Location:
+ - World: world
+ - X: -53.13716560282803
+ - Y: 101.27168814695582
+ - Z: 3.098720245880664
+
+Information:
+ - UUID: 2d43f9b9-0ea7-312c-8c7f-4ed8f0c23487
+ - Keep Alive Ping: 0
+ - Transaction Ping: 268
+ - Server TPS: 20
+ - Sensitivity: 70
+ - Gamemode: ADVENTURE
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 2.65 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 207
+ - Since Riptide Ticks: 390
+ - Flying Delay: 8
+ - Since Velocity Ticks: 53
+ - Since Firework Ticks: 390
+ - Ticks Existed: 209
+ - Since Vehicle Ticks: 290
+ - Since Liquid Ticks: 290
+ - Queued Transactions: 1
+ - Joined: 14 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type A) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 2] (Invalid Y-Axis movement.)
+ - Flight (Type C) [VL: 3] (Invalid Y-Axis movement.)
+ - Jump (Type B) [VL: 7] (Invalid jump motion.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type B) [VL: 3] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 7] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 3] (Moving too quickly on the ground.)
+ - Step (Type B) [VL: 1] (Invalid Step motion.)
+ - Strafe (Type A) [VL: 3] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ SCARY_GAMER_xD was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-11-2024
+ - Time: 05:25:56
+
+Location:
+ - World: world
+ - X: -58.00645798577631
+ - Y: 100.1177243464236
+ - Z: 6.160003346584185
+
+Information:
+ - UUID: 2d43f9b9-0ea7-312c-8c7f-4ed8f0c23487
+ - Keep Alive Ping: 36
+ - Transaction Ping: 146
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 7.7 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 154
+ - Since Riptide Ticks: 254
+ - Flying Delay: 46
+ - Since Velocity Ticks: 154
+ - Since Firework Ticks: 254
+ - Ticks Existed: 54
+ - Since Vehicle Ticks: 154
+ - Since Liquid Ticks: 154
+ - Queued Transactions: 0
+ - Joined: 21 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type A) [VL: 10] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 6] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 3] (Invalid Y-Axis movement.)
+ - Motion (Type B) [VL: 6] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type B) [VL: 1] (Moving too quickly on the ground.)
+ - Speed (Type C) [VL: 3] (Moving too quickly in the air.)
+ - Speed (Type D) [VL: 1] (Moving too quickly on the ground.)
+ - Strafe (Type A) [VL: 5] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Karan_890 was punished for Aim (Type Y) ]--------------
+
+Date & Time:
+ - Date: 06-11-2024
+ - Time: 11:14:51
+
+Location:
+ - World: crystalflat
+ - X: 115.55129065126259
+ - Y: 30.0
+ - Z: 64.27607903462844
+
+Information:
+ - UUID: 718c74e9-8b9b-32ed-b41b-044aa75ab593
+ - Keep Alive Ping: 138
+ - Transaction Ping: 226
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 2.3 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 5
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 259
+ - Since Riptide Ticks: 717
+ - Flying Delay: 0
+ - Since Velocity Ticks: 46
+ - Since Firework Ticks: 717
+ - Ticks Existed: 588
+ - Since Vehicle Ticks: 617
+ - Since Liquid Ticks: 617
+ - Queued Transactions: 1
+ - Joined: 61 seconds ago
+ - Holding Item (Main Hand): ItemStack{END_CRYSTAL x 58}
+ - Holding Item (Off Hand): ItemStack{TOTEM_OF_UNDYING x 1}
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+
+Blocks Nearby: [NETHERITE_BLOCK, NETHERITE_BLOCK, NETHERITE_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERITE_BLOCK, NETHERITE_BLOCK, NETHERITE_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERITE_BLOCK, NETHERITE_BLOCK, NETHERITE_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftEnderCrystal]
+Potion Effects: [PotionEffect{amplifier=0, duration=368, type=CraftPotionEffectType[minecraft:fire_resistance], ambient=false, particles=true, icon=true, hiddenEffect=null}, PotionEffect{amplifier=1, duration=468, type=CraftPotionEffectType[minecraft:regeneration], ambient=false, particles=true, icon=true, hiddenEffect=null}]
+---------------------------------------------------------------------------
+
+
+--------------[ RohaanOp was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 06-11-2024
+ - Time: 18:33:24
+
+Location:
+ - World: world
+ - X: -50.5977892080389
+ - Y: 92.56106602267936
+ - Z: -1.3626228406990104
+
+Information:
+ - UUID: fea3f2c2-e37b-32b0-b1d6-e73e4d55542b
+ - Keep Alive Ping: 3997
+ - Transaction Ping: 2725
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: ADVENTURE
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.20.3
+ - Last Damage: 0.4 seconds ago
+
+Total Violations: 32
+ - Combat Violations: 0
+ - Movement Violations: 31
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 713
+ - Since Riptide Ticks: 1182
+ - Flying Delay: 51
+ - Since Velocity Ticks: 8
+ - Since Firework Ticks: 1182
+ - Ticks Existed: 1000
+ - Since Vehicle Ticks: 1082
+ - Since Liquid Ticks: 1082
+ - Queued Transactions: 11
+ - Joined: 66 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{AIR x 0}
+
+All Violations:
+ - Flight (Type C) [VL: 11] (Invalid Y-Axis movement.)
+ - Flight (Type D) [VL: 2] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 3] (Invalid jump motion.)
+ - Jump (Type B) [VL: 15] (Invalid jump motion.)
+ - Bad Packets (Type 7) [VL: 5] (Replied to Transaction packets wrongly.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+

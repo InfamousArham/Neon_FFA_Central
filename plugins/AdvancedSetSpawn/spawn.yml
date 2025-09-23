@@ -1,0 +1,16 @@
+Spawn:
+  ==: org.bukkit.Location
+  world: world
+  x: 0.5769072467157538
+  y: 90.0
+  z: 0.48513950655079746
+  pitch: 3.2999651
+  yaw: 93.10795
+FirstSpawn:
+  ==: org.bukkit.Location
+  world: world
+  x: -48.60896998556648
+  y: 84.0
+  z: 0.355215626810339
+  pitch: 4.500034
+  yaw: 118.457535

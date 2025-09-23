@@ -1,0 +1,105 @@
+# rRules Skript by Rv2_
+# discord: Rv2_
+# Contact me on discord for support.
+
+
+options:
+#     <---- Colors ---->
+	Prefix: &c&lFadeMCRules &8»
+	Client: <##7afc00>&l
+	General: <##f97603>&l
+	Chat: <##03a3f9>
+#
+#     <---- General ---->
+	Version: &c&l1.0
+	Permissionmessage: &cYou don't have permission to execute this command!
+
+# What permission the player has to have for /rulesinfo
+	Permission: rRules.staff
+
+
+
+
+	
+#
+# If you do not have experience with skript I would not suggest changing anything below
+# 
+#
+#
+#
+
+
+command /rules:
+    trigger:
+
+#  >----Client Rules----<
+        set {_rules} to a new chest inventory with 3 rows named "                rRules"
+        set slot 10 of {_rules} to knowledge book named "{@Client}&lCLIENT RULES" with Lore "", "{@Client}⏺ &fNo Hacked Clients", "{@Client}⏺ &fNo Movement Mods", "{@Client}⏺ &fNo Inventory Mods", "{@Client}⏺ &fNo Freecam", "{@Client}⏺ &fNo Auto Place" and "{@Client}⏺ &fNo Harmful Macros or Scripts"
+
+#  >----General Rules----<
+        set slot 13 of {_rules} to knowledge book named "{@General)&lGENERAL RULES" with Lore "", "{@General)⏺ &fNo Abusing Unintentional Bugs", "{@General)⏺ &fNo Attempted Duplicating", "{@General)⏺ &fNo Duplicating Items", "{@General)⏺ &fNo Impersonation of Staff", "{@General)⏺ &fNo Punishment Evasion", "{@General)⏺ &fNo Lying to Staff Members", "{@General)⏺ &fNo Doxing, Swatting, or DDosing", "{@General)⏺ &fReport All Bugs, Glitches, and Cheaters" and "   &fin the discord <##f97603>(/discord)"
+
+#  >----Chat Rules----<
+        set slot 16 of {_rules} to knowledge book named "{@Chat}&lCHAT RULES" with Lore "", "{@Chat}⏺ &fNo Spamming & Rioting", "{@Chat}⏺ &fNo Harassing & Abusing Others", "{@Chat}⏺ &fNo Sharing Others Information", "{@Chat}⏺ &fNo Advertising or Promotion", "{@Chat}⏺ &fNo Racism, Discrimination or Hate Speech" and "{@Chat}⏺ &fNo Death Threats & Suicide Encouragement"
+
+
+        open {_rules} to player
+
+on inventory click:
+	if name of player's current inventory is "                rRules":
+		cancel event
+
+
+
+
+on script load:
+	message "&8&m+---------------------------+" to console
+	message "&aActivating rRules" to console
+	message "&fRules.sk" to console
+	message "&7" to console
+	message "&7Version: &f{@version}" to console
+	message "&7By Rv2_" to console
+	message "&8&m+---------------------------+" to console
+	wait 2 seconds
+	message "&8&m+---------------------------+" to console
+	message "&aActivated plugin" to console
+	message "&fRules.sk" to console
+	message "&7" to console
+	message "&7Version: &f{@version}" to console
+	message "&7By VARboosted" to console
+	message "&8&m+---------------------------+" to console
+
+on script unload:
+	message "&8&m+---------------------------+" to console
+	message "&aDeactivated rRules" to console
+	message "&fRules.sk" to console
+	message "&7" to console
+	message "&7Version: &f{@version}" to console
+	message "&7By Rv2_ to console
+	message "&8&m+---------------------------+" to console
+	stop
+
+#
+# Important for support!
+#
+
+command /rulesinfo:
+  aliases: /rinfo
+  permission: {@Permission}
+  permission message: {@Prefix} {@Permissionmessage}
+  trigger:
+    message "&c[&8&m-------------------------------------------------&c]"
+    message "&7"
+    message "&8» &7Prefix: {@Prefix}"
+    message "&7"
+    message "&8» &7Version: {@Version}"
+    message "&7"
+    message "&8» &7✖ Permission message: {@Prefix} {@Permissionmessage}"
+    message "&7"
+    message "&8» &7⏺ Chat Rules prefix: {@Chat}"
+    message "&7"
+    message "&8» &7⏺ General Rules prefix: {@General}"
+    message "&7"
+    message "&8» &7⏺ Client Rules prefix: {@Client}"
+    message "&c[&8&m-------------------------------------------------&c]"
+

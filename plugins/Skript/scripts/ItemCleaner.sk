@@ -1,0 +1,54 @@
+#===============================================================================#
+#                                                                               #
+#                   ItemCleaner - Thanks for using my Skript                    #
+#                                                                               #
+#                        Socials: linktr.ee/synteh                              #
+#              BuiltByBit - builtbybit.com/members/synteh.122041                #
+#                   NameMC - namemc.com/profile/notsynteh.1                     #
+#                                                                               #
+#===============================================================================#
+
+options:
+    Prefix: &a&lCLEARLAGG &7┃
+    Time: 15
+    Units: minutes #There is time units: minute(s), second(s), hour(s)#
+	
+
+command /nolag:
+	permission: itemcleaner.command.use
+	trigger:
+		set {_count} to 0
+		loop entities:
+			loop-entity is a dropped item
+			clear loop-entity
+			add 1 to {_count}
+			if {_count} is not set:
+				set {_count} to 0
+		broadcast "&8&m┏--&7&m-----&f&m-------------&7&m-----&8&m--┓"
+		broadcast ""
+		broadcast "           &8» &6&lLAG REDUCER &8« "
+		broadcast "&5&l   &7(ᴀʟʟ ɪᴛᴇᴍѕ ᴏɴ ꜰʟᴏᴏʀ ᴄʟᴇᴀʀᴇᴅ) "
+		broadcast "    "
+		broadcast "       &fѕᴜᴄᴄᴇѕѕꜰᴜʟʟʏ ᴄʟᴇᴀʀᴇᴅ"
+		broadcast "           "
+		if {_count} is equal to 0:
+			broadcast "      &7► &a&nɴᴏɴᴇ&a &fɪᴛᴇᴍѕ ᴏɴ ꜰʟᴏᴏʀ &7◄     "
+		if {_count} is higher than 0:
+			broadcast "         &7► &a&n%{_count}%&a &fitems on floor &7◄     "
+		broadcast ""
+		broadcast "&8&m┗--&7&m-----&f&m-------------&7&m-----&8&m--┛"
+		
+every {@Time} {@Units}:
+	broadcast "{@Prefix} &fStarting in &a60 &fseconds."
+	wait 55 seconds
+	broadcast "{@Prefix} &fStarting in &a5 &fseconds."
+	wait 1 second
+	broadcast "{@Prefix} &fStarting in &a4 &fseconds."
+	wait 1 second
+	broadcast "{@Prefix} &fStarting in &a3 &fseconds."
+	wait 1 second
+	broadcast "{@Prefix} &fStarting in &a2 &fseconds."
+	wait 1 second
+	broadcast "{@Prefix} &fStarting in &a1 &fseconds."
+	wait 1 second
+	make server execute command "/nolag"

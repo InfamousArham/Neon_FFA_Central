@@ -1,0 +1,49 @@
+inv:
+  size: 27
+  alias: rtp
+  permission: null
+  id: rtp
+  title: §x§A§3§F§B§0§0§lᴄʀʏѕᴛᴀʟ ʀᴛᴘ
+  targetPlayerOption: DISABLED
+  items:
+    13:
+      4484148239637584896:
+        shiftrightaction: null
+        item:
+          v: 3700
+          type: END_CRYSTAL
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3AFB00","text":"ᴄ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFB13","text":"ʀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#40FC26","text":"ʏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43FC38","text":"ѕ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#46FD4B","text":"ᴛ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4AFD5E","text":"ᴀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4DFE71","text":"ʟ
+              "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#50FE83","text":"ʀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#53FF96","text":"ᴛ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#56FFA9","text":"ᴘ"}],"text":""}'
+        showPermission: null
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands:
+          - betterrtp world desert
+          - <server>playerkits give rtp <player>
+        shiftleftaction: null
+        middleaction: null
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands: []
+id: rtp

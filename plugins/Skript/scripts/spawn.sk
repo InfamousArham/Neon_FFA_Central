@@ -1,0 +1,4 @@
+on command "/spawn":
+    execute console command "effect clear %player%"
+    execute console command "minecraft:clear %player%"
+    execute console command "heal %player%"

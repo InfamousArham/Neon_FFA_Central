@@ -1,0 +1,47 @@
+inv:
+  size: 27
+  alias: bedfight
+  permission: null
+  id: bedfight
+  title: §c§lʙᴇᴅꜰɪɢʜᴛ
+  targetPlayerOption: DISABLED
+  items:
+    13:
+      8596915418792000079:
+        shiftrightaction: null
+        item:
+          v: 3700
+          type: RED_BED
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB0000","text":"ʙ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC1818","text":"ᴇ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC3131","text":"ᴅ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD4949","text":"ꜰ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD6161","text":"ɪ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FE7979","text":"ɢ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FE9292","text":"ʜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAAAA","text":"ᴛ"}],"text":""}'
+        showPermission: null
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands:
+          - mvtp world_the_end
+          - <server>playerkits give Bedfight <player>
+        shiftleftaction: null
+        middleaction: null
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          permission: null
+          closeInv: false
+          commands: []

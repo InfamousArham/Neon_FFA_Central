@@ -1,0 +1,18 @@
+name: herotrisan
+kits:
+  axepvp:
+    cooldown: 1716770430671
+    one_time: false
+    bought: false
+  nethpot:
+    cooldown: 1716770745863
+    one_time: false
+    bought: false
+  smpkit:
+    cooldown: 1716771263439
+    one_time: false
+    bought: false
+  tank:
+    cooldown: 1716771735764
+    one_time: false
+    bought: false

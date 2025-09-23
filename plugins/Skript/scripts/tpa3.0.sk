@@ -1,0 +1,152 @@
+variables:
+  {%player%.tpatoggle} = "true"
+
+options:
+  success: "minecraft:entity.experience_orb.pickup"
+  fail: "minecraft:entity.villager.no"
+  cancel: "minecraft:entity.enderman.teleport"
+
+command /tpa [<player>]:
+  trigger:
+    if {request::player::%arg-1's uuid%} is not set:
+      if arg-1 is set:
+        if arg-1 is online:
+          if arg-1 is player:
+            send "&4This is you!"
+            send action bar "&4This is you!"
+            play sound {@fail}
+          else if {%arg-1%.tpatoggle} is "true":
+            set {request::player::%arg-1's uuid%} to player
+            send "&a%player% has sent you a tpa request." to arg-1
+            send action bar "&a%player% has sent you a tpa request." to arg-1
+            play sound {@success} at volume 1 at pitch 1.5 to arg-1
+            send "&aYou have sent a tpa request to &a%arg-1%." to player
+            wait 60 seconds
+            delete {request::player::%arg-1's uuid%}
+          else:
+            send "&4%arg-1% has tps set to false."
+            send action bar "&4%arg-1% has tps set to false."
+            play sound {@fail}
+        else:
+          send "&4%arg-1% is offline."
+          send action bar "&4%arg-1% is offline."
+          play sound {@fail} 
+      else:
+        send "&4Please define a player."
+        send action bar "&4Please define a player."
+        play sound {@fail} 
+    else:
+      send "&4You have already sent %arg-1% a tpa request."
+      send action bar "&4You have already sent %arg-1% a tpa request."
+      play sound {@fail} 
+
+command /tpahere [<player>]:
+  trigger:
+    if {requesthere::player::%arg-1's uuid%} is not set:
+      if arg-1 is set:
+        if arg-1 is online:
+          if arg-1 is player:
+            send "&4This is you!"
+            send action bar "&4This is you!"
+            play sound {@fail}
+          else if {%arg-1%.tpatoggle} is "true":
+            set {requesthere::player::%arg-1's uuid%} to player
+            send "&a%player% has sent you a tpa request." to arg-1
+            send action bar "&a%player% has sent you a tpa request." to arg-1
+            play sound {@success} at volume 1 at pitch 1.5 to arg-1
+            send "&aYou have sent a tpa request to &a%arg-1%." to player
+            wait 60 seconds
+            delete  {requesthere::player::%arg-1's uuid%}
+          else:
+            send "&4%arg-1% has tps set to false."
+            send action bar "&4%arg-1% has tps set to false."
+            play sound {@fail}
+        else:
+          send "&4%arg-1% is offline."
+          send action bar "&4%arg-1% is offline."
+          play sound {@fail} 
+      else:
+        send "&4Please define a player."
+        send action bar "&4Please define a player."
+        play sound {@fail} 
+    else:
+      send "&4You have already sent %arg-1% a tpa request."
+      send action bar "&4You have already sent %arg-1% a tpa request."
+      play sound {@fail} 
+
+command /tpaccept [<player>]:
+  trigger:
+    if arg-1 is set:
+      if {request::player::%player's uuid%} is set:
+        set {_loc} to location of block under arg-1
+        loop 5 times:
+          set {_countdown} to (6 - loop-number)
+          send action bar "&aTeleporting in %{_countdown}% seconds" to arg-1
+          play sound {@cancel} to arg-1
+          wait 1 second
+          if location of block under arg-1 is not {_loc}:
+            set {_cancelFlag} to true
+            send "&4Teleportation canceled due to movement!" to arg-1
+            send action bar "&4Teleporting canceled due to movement!" to arg-1
+            play sound {@fail} to arg-1
+            stop
+          else:
+            if loop-number is 5:
+              send "&aAccepting tpa request..." to player
+              teleport arg-1 to player
+              delete {request::player::%player's uuid%}
+              wait 1 second
+              send action bar "&aYou have tpd to %player%." to arg-1
+              play sound {@success} at volume 1 at pitch 1.5 to arg-1
+      else if {requesthere::player::%player's uuid%} is set:
+        set {_loc} to location of block under player
+        loop 5 times:
+          set {_countdown} to (6 - loop-number)
+          send action bar "&aTeleporting in %{_countdown}% seconds" to player
+          play sound {@cancel} to player
+          wait 1 second
+          if location of block under player is not {_loc}:
+            set {_cancelFlag} to true
+            send "&4Teleportation canceled due to movement!" to player
+            send action bar "&4Teleporting canceled due to movement!" to player
+            play sound {@fail} to player
+            stop
+          else:
+            if loop-number is 5:
+              send "&aAccepting tpa request..." to arg-1
+              teleport player to arg-1
+              delete {requesthere::player::%arg-1's uuid%}
+              wait 1 second
+              send action bar "&aYou have tpd to %player%." to player
+              play sound {@success} at volume 1 at pitch 1.5 to player
+      else:
+        send "&4You have no tpa requests from this player."
+        send action bar "&4You have no tpa requests from this player."
+        play sound {@fail}
+    else:
+      send "&fPlease define a &aplayer."
+      send action bar "&aPlease define a player."
+      play sound {@fail}
+
+command /tpacancel [<player>]:
+  trigger:
+    send "&4You have canceled all tpa requests"
+    send action bar "&4You have canceled all tpa requests"
+    play sound {@cancel}
+    delete {request::player::%player's uuid%}
+    delete {request::player::%arg-1's uuid%}
+    delete {requesthere::player::%player's uuid%}
+    delete {requesthere::player::%arg-1's uuid%}
+
+command /tpatoggle:
+  trigger:
+    if {%player%.tpatoggle} is "false":
+      set {%player%.tpatoggle} to "true"
+      send "&aYou will be receiving tpa requests now."
+      send action bar "&aYou will be receiving tpa requests now."
+      play sound {@success} at volume 1 at pitch 1.5
+    else if {%player%.tpatoggle} is "true":            
+      set {%player%.tpatoggle} to "false"
+      send "&4You won't be receiving tpa requests now."
+      send action bar "&4You won't be receiving tpa requests"
+      play sound {@cancel} to player

@@ -1,0 +1,8 @@
+########### Box Arena Reset ############
+
+every 10 minutes:
+    execute console command "/arena reset builduhc extreme"
+    execute console command "/arena reset cartffa extreme"   
+    execute console command "/arena reset crystalffa extreme"
+    execute console command "/arena reset end extreme"    
+    execute console command "/arena reset smpkit extreme"    

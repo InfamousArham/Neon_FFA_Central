@@ -1,0 +1,227 @@
+cooldown: 0
+one_time: false
+auto_armor: true
+permission_required: true
+save_original_items: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    id: DIAMOND_SWORD
+    amount: 1
+    enchants:
+    - MENDING;1
+    - DAMAGE_ALL;5
+  '2':
+    id: DIAMOND_AXE
+    amount: 1
+    enchants:
+    - MENDING;1
+    - DAMAGE_ALL;5
+  '3':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '4':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '5':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '6':
+    id: GOLDEN_APPLE
+    amount: 6
+  '7':
+    id: GOLDEN_CARROT
+    amount: 64
+  '8':
+    id: WATER_BUCKET
+    amount: 1
+  '9':
+    id: WATER_BUCKET
+    amount: 1
+  '10':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '11':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '12':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '13':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '14':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '15':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '16':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '17':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '18':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '19':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '20':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '21':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '22':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '23':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '24':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '25':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '26':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '27':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '28':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '29':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '30':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '31':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '32':
+    id: TRIDENT
+    amount: 1
+    enchants:
+    - RIPTIDE;3
+  '33':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '34':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '35':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '36':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '37':
+    id: DIAMOND_BOOTS
+    amount: 1
+    enchants:
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;4
+    - DURABILITY;2
+  '38':
+    id: DIAMOND_LEGGINGS
+    amount: 1
+    enchants:
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;4
+    - DURABILITY;2
+  '39':
+    id: DIAMOND_CHESTPLATE
+    amount: 1
+    enchants:
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;4
+    - DURABILITY;2
+  '40':
+    id: DIAMOND_HELMET
+    amount: 1
+    enchants:
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;4
+    - DURABILITY;2
+  '41':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+    offhand: true
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

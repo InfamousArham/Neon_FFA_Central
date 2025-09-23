@@ -1,9 +1,0 @@
-command /sendplayer <player> <text>:
-      permission: ffa.sendplayer
-      description: Send a player to the arena with a kit
-      usage: /sendplayer <player> <kit>
-      trigger:
-            execute console command "/betterrtp:rtp player %player-argument% arena"
-            wait 0.3 seconds
-            execute console command "/minecraft:clear %player-argument%"
-            execute console command "/essentials:kit %text-argument% %player-argument%"

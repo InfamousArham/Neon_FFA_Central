@@ -1,0 +1,68 @@
+inv:
+  size: 27
+  alias: kit
+  id: kiteditor
+  title: §b§lKIT EDITOR
+  targetPlayerOption: DISABLED
+  items:
+    '16':
+      '-7532134281692206101':
+        item:
+          v: 3700
+          type: DIAMOND_AXE
+    '10':
+      '-2259972285840844697':
+        item:
+          v: 3700
+          type: END_CRYSTAL
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - playerkits preview crystalffa
+    '11':
+      '1005260161112231469':
+        item:
+          v: 3700
+          type: TNT_MINECART
+    '12':
+      '3816399891457535697':
+        item:
+          v: 3700
+          type: LAVA_BUCKET
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+    '13':
+      '-8461576721170551379':
+        item:
+          v: 3700
+          type: SHIELD
+    '14':
+      '6829338693137446324':
+        item:
+          v: 3700
+          type: DIAMOND_SWORD
+    '15':
+      '8643562988363476080':
+        item:
+          v: 3700
+          type: SPLASH_POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            potion-type: minecraft:long_regeneration

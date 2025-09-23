@@ -1,0 +1,97 @@
+2024-06-10 09:20:12 [INFO]: Loading Overrides...
+2024-06-10 09:20:12 [INFO]: Loading World Types...
+2024-06-10 09:20:12 [INFO]: - World Type for 'world' set to 'NORMAL'
+2024-06-10 09:20:12 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2024-06-10 09:20:12 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2024-06-10 09:20:12 [INFO]: Loading Defaults...
+2024-06-10 09:20:12 [INFO]: Loading Custom Worlds...
+2024-06-10 09:20:12 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2024-06-10 09:20:12 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2024-06-10 09:20:12 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:manhunt configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:cartffa configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:duels configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:axepvp configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:crystalflat configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:nethpot configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:smpkit configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:builduhc configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:tank configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:desert configured and loaded!
+2024-06-10 09:20:18 [INFO]: Database COOLDOWN:crystalffa configured and loaded!
+2024-06-10 09:20:21 [INFO]: Attempting to queue up some more safe locations...
+2024-06-10 09:20:22 [WARNING]: Seems like the world `tank` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- tank: NETHER`
+2024-06-10 09:21:16 [INFO]: Max attempts to create a Queue reached for default_tank (amount: 0)
+2024-06-10 09:21:16 [INFO]: Queueing paused, max queue limit reached!
+2024-06-10 09:30:01 [INFO]: New world `world_the_end` detected! Reloaded Databases!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:manhunt configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:cartffa configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:duels configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:axepvp configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:crystalflat configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:nethpot configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:smpkit configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:builduhc configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:tank configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:desert configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:crystalffa configured and loaded!
+2024-06-10 09:30:01 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-06-10 09:31:54 [WARNING]: Seems like the world `crystalffa` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- crystalffa: NETHER`
+2024-06-10 09:50:54 [WARNING]: Seems like the world `builduhc` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- builduhc: NETHER`
+2024-06-10 09:55:21 [WARNING]: Seems like the world `axepvp` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- axepvp: NETHER`
+2024-06-10 10:05:13 [WARNING]: Seems like the world `smpkit` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- smpkit: NETHER`
+2024-06-10 10:14:18 [INFO]: WaseeqGotRizz executed: /betterrtp world desert
+2024-06-10 10:14:18 [WARNING]: Seems like the world `desert` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- desert: NETHER`
+2024-06-10 10:14:18 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=819.5,y=73.0,z=25.5,pitch=-4.7202034,yaw=51.778683}
+2024-06-10 12:57:18 [INFO]: New world `world_the_end` detected! Reloaded Databases!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:manhunt configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:cartffa configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:duels configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:axepvp configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:crystalflat configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:nethpot configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:smpkit configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:builduhc configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:tank configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:desert configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:crystalffa configured and loaded!
+2024-06-10 12:57:18 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-06-10 12:57:35 [WARNING]: Seems like the world `crystalflat` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- crystalflat: NETHER`
+2024-06-10 12:59:13 [INFO]: HackerPlayz1_ executed: /betterrtp world desert
+2024-06-10 12:59:13 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-306.5,y=67.0,z=-955.5,pitch=-13.200046,yaw=57.11084}
+2024-06-10 13:20:07 [INFO]: MinimumSquid executed: /betterrtp world desert
+2024-06-10 13:20:07 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=579.5,y=68.0,z=-323.5,pitch=10.50236,yaw=84.61661}
+2024-06-10 13:20:44 [INFO]: MinimumSquid executed: /betterrtp world desert
+2024-06-10 13:20:47 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=551.5,y=72.0,z=-880.5,pitch=-3.0144362,yaw=89.49355}
+2024-06-10 14:02:52 [INFO]: MinimumSquid executed: /betterrtp world desert
+2024-06-10 14:02:52 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=832.5,y=73.0,z=260.5,pitch=29.788723,yaw=-88.93118}
+2024-06-10 14:11:33 [INFO]: MinimumSquid executed: /betterrtp world desert
+2024-06-10 14:11:33 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-73.5,y=67.0,z=-803.5,pitch=-11.001634,yaw=88.87915}
+2024-06-10 14:55:14 [INFO]: ZEROXFFF executed: /betterrtp world desert
+2024-06-10 14:55:14 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-735.5,y=71.0,z=858.5,pitch=-25.275412,yaw=90.97147}
+2024-06-10 18:34:38 [INFO]: Itz_Opp executed: /betterrtp world desert
+2024-06-10 18:34:39 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-720.5,y=67.0,z=-666.5,pitch=-7.3495836,yaw=71.62137}
+2024-06-10 18:37:35 [INFO]: _ZOANZ_ executed: /betterrtp world desert
+2024-06-10 18:37:35 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-341.5,y=70.0,z=310.5,pitch=-12.000025,yaw=91.00751}
+2024-06-10 18:37:49 [INFO]: Abubokkor94 executed: /betterrtp world desert
+2024-06-10 18:37:49 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=389.5,y=71.0,z=-517.5,pitch=-3.1500394,yaw=102.55784}
+2024-06-10 18:38:28 [INFO]: YTDEMON_BG executed: /betterrtp world desert
+2024-06-10 18:38:28 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=970.5,y=67.0,z=-526.5,pitch=21.44995,yaw=117.107956}
+2024-06-10 18:39:40 [WARNING]: Seems like the world `nethpot` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- nethpot: NETHER`
+2024-06-11 08:16:19 [INFO]: Karan_890 executed: /betterrtp world desert
+2024-06-11 08:16:20 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=346.5,y=70.0,z=-63.5,pitch=-16.650036,yaw=81.85784}
+2024-06-11 15:53:55 [INFO]: Rudip_YT executed: /betterrtp world desert
+2024-06-11 15:53:55 [INFO]: -Removed a queue Location{world=CraftWorld{name=desert},x=-416.5,y=72.0,z=-793.5,pitch=-10.650035,yaw=98.358055}

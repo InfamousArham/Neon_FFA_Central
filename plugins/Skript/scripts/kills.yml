@@ -1,0 +1,9 @@
+on death of player:
+        wait 2 ticks 
+        send title "&4🗡" to victim
+        send subtitle "&fʏᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ᴋɪʟʟᴇᴅ ʙʏ %attacker%" to victim
+
+on death of player:
+        wait 2 ticks
+        send title "&4🗡" to attacker
+        send subtitle "&fʏᴏᴜ ʜᴀᴠᴇ ᴋɪʟʟᴇᴅ %victim%" to attacker

@@ -1,5 +1,0 @@
-# Should players in vanish be preventing from going into combat? 1021a2570e05e006419c517ea6c7b9a4
-prevent-vanish-tagging-self: true
-
-# Should players in vanish be unable to tag other players?
-prevent-vanish-tagging-other: true

@@ -1,0 +1,18 @@
+on rightclick on player:
+    if player's ping >= 60:
+        send action bar "&a%clicked player%'s ᴘɪɴɢ: %clicked player's ping%"
+    else if player's ping is less than 60:
+        send action bar "&c%clicked player%'s ᴘɪɴɢ: %clicked player's ping%"
+
+command /ping [<player>]:
+    trigger:
+        if arg-1 is not set:
+            if player's ping >= 60:
+                send action bar "&cʏᴏᴜʀ ᴘɪɴɢ: %player's ping%"
+            else if player's ping is less than 60:
+                send action bar "&aʏᴏᴜʀ ᴘɪɴɢ: %player's ping%"
+            else:
+                if arg-1's ping is less than 60:
+                    send action bar "&a%arg-1%'s ᴘɪɴɢ: %arg-1's ping%"
+                else if arg-1's ping is more than 60:
+                    send action bar "&c%arg-1%'s ᴘɪɴɢ: %arg-1's ping%"

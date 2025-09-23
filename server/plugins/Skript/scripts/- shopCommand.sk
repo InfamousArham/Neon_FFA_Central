@@ -1,9 +1,0 @@
-command /shop:
-    aliases: /upgrades
-    executable by: players
-    description: Open the item shop
-    trigger:
-        if player is in the world "arena":
-            console command "/dm open shop %player%"
-        else:
-            send message "<##FF4444>The Shop can only be opened in the Arena" to player

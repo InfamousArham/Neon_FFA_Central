@@ -1,0 +1,490 @@
+[05-26-2024] [10:12:24] UsmanXC failed Air Place (Type A) [VL: 1] [Ping: 148] [TPS: 20] [Version: 1.19.1] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:14:58] Xarrier failed Reach (Type A) [VL: 1] [Ping: 240] [TPS: 20] [Version: 1.20] [Client: Unresolved] distance=5.6991668936006725
+[05-26-2024] [10:15:01] Xarrier failed Aim (Type K) [VL: 1] [Ping: 240] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaYaw=10.5849 deltaPitch=15.620787
+[05-26-2024] [10:15:04] Xarrier failed Reach (Type A) [VL: 2] [Ping: 240] [TPS: 20] [Version: 1.20] [Client: Unresolved] distance=5.006792645313878
+[05-26-2024] [10:15:04] Xarrier failed Aim (Type K) [VL: 2] [Ping: 240] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaYaw=0.4373474 deltaPitch=1.3120365
+[05-26-2024] [10:15:09] Xarrier failed Aim (Type H) [VL: 1] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] final=-24.649887650179785 deltaPitch=3.4987640380859375
+[05-26-2024] [10:15:14] Xarrier failed Aim (Type K) [VL: 3] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaYaw=1.3120365 deltaPitch=1.749382
+[05-26-2024] [10:15:16] Xarrier failed Reach (Type A) [VL: 3] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] distance=4.276746567361277
+[05-26-2024] [10:15:43] Xarrier failed Aim (Type Y) [VL: 1] [Ping: 226] [TPS: 20] [Version: 1.20] [Client: Unresolved] diff=27.337574 dist=1.3204710077828592
+[05-26-2024] [10:16:26] Xarrier failed Aim (Type Y) [VL: 2] [Ping: 238] [TPS: 20] [Version: 1.20] [Client: Unresolved] diff=24.200005 dist=7.634079549424861
+[05-26-2024] [10:16:26] Xarrier failed Aim (Type Y) [VL: 3] [Ping: 238] [TPS: 20] [Version: 1.20] [Client: Unresolved] diff=23.712822 dist=8.846132496969645
+[05-26-2024] [10:16:26] Xarrier failed Reach (Type A) [VL: 4] [Ping: 238] [TPS: 20] [Version: 1.20] [Client: Unresolved] distance=7.553504636122293
+[05-26-2024] [10:16:26] Xarrier failed Aim (Type Y) [VL: 4] [Ping: 238] [TPS: 20] [Version: 1.20] [Client: Unresolved] diff=23.974245 dist=8.846132496969645
+[05-26-2024] [10:16:26] Xarrier failed Aim (Type Y) [VL: 5] [Ping: 238] [TPS: 20] [Version: 1.20] [Client: Unresolved] diff=26.209486 dist=9.320309527848762
+[05-26-2024] [10:20:05] Its_me_Vansh failed Air Place (Type A) [VL: 1] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type A) [VL: 1] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=5 difference=1.8669221821935338
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 1] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=340
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type A) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=6 difference=2.028400001525881
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=341
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type B) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001351156698 max=0.6205 diff=3.2505001351156695 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type C) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001351156698 max=0.36 diff=3.51100013511567 ticks=6 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type D) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001351156698 max=0.6205 diff=3.2505001351156695 ticks=0 deltaY=1.9500000000000028 tp=341
+[05-26-2024] [10:33:57] sharpygamerYT failed Invalid (Type E) [VL: 1] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.8710001351156698
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type A) [VL: 3] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=7 difference=2.1052320045166013
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 3] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=342
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type B) [VL: 3] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000207241267 max=0.6205 diff=3.2505002072412665 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type D) [VL: 3] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000207241267 max=0.6205 diff=3.2505002072412665 ticks=0 deltaY=1.9500000000000028 tp=342
+[05-26-2024] [10:33:57] sharpygamerYT failed Invalid (Type E) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000207241267
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type A) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=8 difference=2.180527368912969
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=343
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type B) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type C) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.36 diff=3.5110001545513883 ticks=8 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type D) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028 tp=343
+[05-26-2024] [10:33:57] sharpygamerYT failed Strafe (Type A) [VL: 2] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.24238060781966544 deltaXZ=3.871000154551388
+[05-26-2024] [10:33:57] sharpygamerYT failed Invalid (Type E) [VL: 3] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000154551388
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 5] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=344
+[05-26-2024] [10:33:57] sharpygamerYT failed Motion (Type A) [VL: 1] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type B) [VL: 5] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type D) [VL: 5] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028 tp=344
+[05-26-2024] [10:33:57] sharpygamerYT failed Invalid (Type E) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000154551388
+[05-26-2024] [10:33:57] sharpygamerYT failed Jump (Type B) [VL: 6] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=345
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type B) [VL: 6] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type C) [VL: 6] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.36 diff=3.5110001545513883 ticks=10 deltaY=1.9500000000000028
+[05-26-2024] [10:33:57] sharpygamerYT failed Speed (Type D) [VL: 6] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028 tp=345
+[05-26-2024] [10:33:57] sharpygamerYT failed Strafe (Type A) [VL: 4] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.24199224029892755 deltaXZ=3.871000154551388
+[05-26-2024] [10:33:57] sharpygamerYT failed Invalid (Type E) [VL: 5] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000154551388
+[05-26-2024] [10:33:58] sharpygamerYT failed Jump (Type B) [VL: 7] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=346
+[05-26-2024] [10:33:58] sharpygamerYT failed Speed (Type B) [VL: 7] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028
+[05-26-2024] [10:33:58] sharpygamerYT failed Speed (Type D) [VL: 7] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000154551388 max=0.6205 diff=3.2505001545513883 ticks=0 deltaY=1.9500000000000028 tp=346
+[05-26-2024] [10:33:58] sharpygamerYT failed Improbable (Type B) [VL: 1] [Ping: 7] [TPS: 20] [Version: 1.20] [Client: Unresolved] movementViolations=36
+[05-26-2024] [10:41:02] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 94] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:41:04] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 1] [Ping: 94] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=230 delay=149
+[05-26-2024] [10:41:06] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 1] [Ping: 94] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=159 face=self
+[05-26-2024] [10:41:07] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 94] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:41:12] SCARY_GAMER_xD failed Air Place (Type A) [VL: 3] [Ping: 100] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:41:14] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 2] [Ping: 100] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=46 face=self
+[05-26-2024] [10:41:16] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 2] [Ping: 100] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=90 delay=46
+[05-26-2024] [10:41:20] SCARY_GAMER_xD failed Inventory (Type A) [VL: 1] [Ping: 100] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=177
+[05-26-2024] [10:41:28] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 3] [Ping: 105] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=34 face=self
+[05-26-2024] [10:41:28] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 3] [Ping: 105] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=78 delay=34
+[05-26-2024] [10:41:40] SCARY_GAMER_xD failed Air Place (Type A) [VL: 4] [Ping: 105] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:41:46] SCARY_GAMER_xD failed Inventory (Type A) [VL: 2] [Ping: 110] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=117
+[05-26-2024] [10:41:47] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 4] [Ping: 110] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=142 face=self
+[05-26-2024] [10:41:47] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 4] [Ping: 110] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=146 delay=52
+[05-26-2024] [10:41:48] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 5] [Ping: 110] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=49 face=self
+[05-26-2024] [10:41:48] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 5] [Ping: 110] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=175 delay=50
+[05-26-2024] [10:42:14] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:42:16] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 1] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8439105457705125 airTicks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type A) [VL: 1] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8439105457705125 ticks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 2] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9657237242233805 airTicks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type A) [VL: 2] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.0248092696845106 ticks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 3] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.082713105363382 airTicks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type A) [VL: 3] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.1394588654330846 ticks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 4] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.1950697113837805 airTicks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 5] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.3029770000061092 airTicks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type A) [VL: 4] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.3029770000061092 ticks=1
+[05-26-2024] [10:47:47] bhaiyag failed Ground Spoof (Type C) [VL: 6] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.406611164032995 airTicks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type A) [VL: 5] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.406611164032995 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Step (Type C) [VL: 1] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=1 deltaY=-1.5061414190386984 distance=0.0
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type C) [VL: 7] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.5061414190386984 airTicks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type A) [VL: 6] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.5544186209111501 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type C) [VL: 8] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6017302796670094 airTicks=1
+[05-26-2024] [10:47:48] bhaiyag failed VClip (Type A) [VL: 1] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6480957061501158 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type A) [VL: 7] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6480957061501158 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type C) [VL: 9] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6935338249879237 airTicks=1
+[05-26-2024] [10:47:48] bhaiyag failed VClip (Type A) [VL: 3] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6935338249879237 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed VClip (Type A) [VL: 3] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.738063182315642 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type C) [VL: 10] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 airTicks=1
+[05-26-2024] [10:47:48] bhaiyag failed VClip (Type A) [VL: 4] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed Ground Spoof (Type A) [VL: 8] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 ticks=1
+[05-26-2024] [10:47:48] bhaiyag failed VClip (Type A) [VL: 5] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.8244679497883567 ticks=1
+[05-26-2024] [10:48:24] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:24] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:27] SCARY_GAMER_xD failed Air Place (Type A) [VL: 3] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:27] SCARY_GAMER_xD failed Air Place (Type A) [VL: 4] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:29] SCARY_GAMER_xD failed Air Place (Type A) [VL: 5] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:29] SCARY_GAMER_xD failed Air Place (Type A) [VL: 6] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:29] SCARY_GAMER_xD failed Scaffold (Type B) [VL: 1] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=45 face=self
+[05-26-2024] [10:48:31] SCARY_GAMER_xD failed Air Place (Type A) [VL: 7] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:48:31] SCARY_GAMER_xD failed Scaffold (Type C) [VL: 1] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=91 delay=50
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type A) [VL: 9] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.7787179775404525 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type C) [VL: 11] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8415436343684064 airTicks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 6] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8415436343684064 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 7] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9031127792580662 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type C) [VL: 12] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9634505424243116 airTicks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 8] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9634505424243116 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type A) [VL: 10] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9634505424243116 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 9] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.022581551478055 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type C) [VL: 13] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.0805299414785736 airTicks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 10] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.0805299414785736 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type A) [VL: 11] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.0805299414785736 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 11] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.1373193647843607 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type C) [VL: 14] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.192973000707184 airTicks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 12] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.192973000707184 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed VClip (Type A) [VL: 13] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.247513564973076 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type A) [VL: 12] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.247513564973076 ticks=1
+[05-26-2024] [10:49:00] bhaiyag failed Ground Spoof (Type C) [VL: 15] [Ping: 222] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.3009633189939223 airTicks=1
+[05-26-2024] [10:52:29] Anish_10 failed Air Place (Type A) [VL: 1] [Ping: 158] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:53:03] Anish_10 failed Air Place (Type A) [VL: 2] [Ping: 161] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [10:53:33] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 130] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:54:59] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:55:59] SCARY_GAMER_xD failed Air Place (Type A) [VL: 3] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:56:01] SCARY_GAMER_xD failed Air Place (Type A) [VL: 4] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:56:02] SCARY_GAMER_xD failed Air Place (Type A) [VL: 5] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:56:02] SCARY_GAMER_xD failed Air Place (Type A) [VL: 6] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:56:03] SCARY_GAMER_xD failed Air Place (Type A) [VL: 7] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:56:04] SCARY_GAMER_xD failed Air Place (Type A) [VL: 8] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:57:23] SCARY_GAMER_xD failed Air Place (Type A) [VL: 9] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:57:24] SCARY_GAMER_xD failed Air Place (Type A) [VL: 10] [Ping: 121] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [10:59:52] Its_me_Vansh failed Bad Packets (Type M) [VL: 1] [Ping: 174] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=47
+[05-26-2024] [10:59:54] Its_me_Vansh failed Bad Packets (Type M) [VL: 2] [Ping: 174] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=54
+[05-26-2024] [11:00:08] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 32] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:10] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 32] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:13] Its_me_Vansh failed Bad Packets (Type M) [VL: 3] [Ping: 173] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=47
+[05-26-2024] [11:00:42] SCARY_GAMER_xD failed Air Place (Type A) [VL: 3] [Ping: 179] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:42] King_Gamer_ProYT failed Air Place (Type A) [VL: 1] [Ping: 461] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:45] SCARY_GAMER_xD failed Air Place (Type A) [VL: 4] [Ping: 167] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:54] SCARY_GAMER_xD failed Air Place (Type A) [VL: 5] [Ping: 167] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:00:55] SCARY_GAMER_xD failed Air Place (Type A) [VL: 6] [Ping: 167] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:01:15] King_Gamer_ProYT failed Air Place (Type A) [VL: 2] [Ping: 643] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:05:13] SCARY_GAMER_xD failed Air Place (Type A) [VL: 7] [Ping: 155] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:05:15] SCARY_GAMER_xD failed Air Place (Type A) [VL: 8] [Ping: 155] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:05:17] SCARY_GAMER_xD failed Air Place (Type A) [VL: 9] [Ping: 154] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:07:12] Its_me_Vansh failed Bad Packets (Type M) [VL: 4] [Ping: 184] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=55
+[05-26-2024] [11:07:57] Its_me_Vansh failed Bad Packets (Type M) [VL: 1] [Ping: 181] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=73
+[05-26-2024] [11:09:19] SCARY_GAMER_xD failed Air Place (Type A) [VL: 1] [Ping: 152] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:09:20] SCARY_GAMER_xD failed Air Place (Type A) [VL: 2] [Ping: 152] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:10:14] SCARY_GAMER_xD failed Air Place (Type A) [VL: 3] [Ping: 133] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:10:15] SCARY_GAMER_xD failed Air Place (Type A) [VL: 4] [Ping: 133] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[05-26-2024] [11:10:17] King_Gamer_ProYT failed Inventory (Type A) [VL: 1] [Ping: 323] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=48
+[05-26-2024] [11:10:23] SCARY_GAMER_xD failed Inventory (Type A) [VL: 1] [Ping: 130] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=16
+[05-26-2024] [11:10:25] SCARY_GAMER_xD failed Inventory (Type A) [VL: 2] [Ping: 130] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=27
+[05-26-2024] [11:10:28] SCARY_GAMER_xD failed Inventory (Type A) [VL: 3] [Ping: 130] [TPS: 20] [Version: 1.20] [Client: Unresolved] ticks=11
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type C) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799550484094905 max=0.36 diff=0.6199550484094906 ticks=7 deltaY=0.0
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type D) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799550484094905 max=0.3 diff=0.6799550484094905 ticks=9 deltaY=0.0 tp=140
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type D) [VL: 3] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799583876657366 max=0.2975 diff=0.6824583876657366 ticks=10 deltaY=0.0 tp=141
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type C) [VL: 4] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799795683324891 max=0.36 diff=0.6199795683324891 ticks=9 deltaY=0.0
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type D) [VL: 4] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799795683324891 max=0.2975 diff=0.6824795683324891 ticks=11 deltaY=0.0 tp=142
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Strafe (Type A) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.29010821236858997 deltaXZ=0.9799795683324891
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type D) [VL: 5] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799741939896736 max=0.2975 diff=0.6824741939896736 ticks=12 deltaY=0.0 tp=143
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type C) [VL: 6] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799741939896736 max=0.36 diff=0.6199741939896736 ticks=11 deltaY=0.0
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Speed (Type D) [VL: 6] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799741939896736 max=0.2975 diff=0.6824741939896736 ticks=13 deltaY=0.0 tp=144
+[05-26-2024] [11:11:33] King_Gamer_ProYT failed Strafe (Type A) [VL: 4] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.0681976517582246 deltaXZ=0.9799741939896736
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type B) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799693251611095 max=0.6205 diff=0.3594693251611094 ticks=0 deltaY=0.0
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type D) [VL: 7] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799693251611095 max=0.2975 diff=0.6824693251611095 ticks=14 deltaY=0.0 tp=145
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Flight (Type B) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=62 tp=146
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type C) [VL: 8] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799693251611095 max=0.36 diff=0.6199693251611095 ticks=13 deltaY=0.0
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type D) [VL: 8] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799693251611095 max=0.2975 diff=0.6824693251611095 ticks=15 deltaY=0.0 tp=146
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Strafe (Type A) [VL: 6] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.062197213563781564 deltaXZ=0.9799693251611095
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type A) [VL: 2] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.062197213563781495 ticks=14 deltaXZ=0.9799693251611095
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type D) [VL: 9] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799693251611095 max=0.2975 diff=0.6824693251611095 ticks=16 deltaY=0.0 tp=147
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type B) [VL: 3] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799691296636178 max=0.6205 diff=0.35946912966361777 ticks=0 deltaY=0.0
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type C) [VL: 10] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799691296636178 max=0.36 diff=0.6199691296636178 ticks=15 deltaY=0.0
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Speed (Type D) [VL: 10] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9799691296636178 max=0.2975 diff=0.6824691296636178 ticks=17 deltaY=0.0 tp=148
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Strafe (Type A) [VL: 8] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.04187132188900353 deltaXZ=0.9799691296636178
+[05-26-2024] [11:11:34] King_Gamer_ProYT failed Improbable (Type B) [VL: 1] [Ping: 318] [TPS: 20] [Version: 1.20] [Client: Unresolved] movementViolations=33
+[05-26-2024] [11:46:28] Hyper_Boy_Yt failed Air Place (Type A) [VL: 1] [Ping: 213] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [12:05:16] FirePlayz123k failed Air Place (Type A) [VL: 1] [Ping: 41] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-26-2024] [14:37:05] Mr_END_009 failed Bad Packets (Type M) [VL: 1] [Ping: 160] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=46
+[05-26-2024] [14:37:34] Mr_END_009 failed Bad Packets (Type M) [VL: 2] [Ping: 167] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=55
+[05-26-2024] [14:37:42] Mr_END_009 failed Bad Packets (Type M) [VL: 3] [Ping: 167] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=55
+[05-26-2024] [14:37:47] Mr_END_009 failed Bad Packets (Type M) [VL: 4] [Ping: 169] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=49
+[05-26-2024] [14:38:30] Mr_END_009 failed Air Place (Type A) [VL: 1] [Ping: 172] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] block= GLOWSTONE
+[05-26-2024] [14:38:52] Mr_END_009 failed Air Place (Type A) [VL: 2] [Ping: 178] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [17:11:41] Ehtesham_Er1x failed Bad Packets (Type M) [VL: 1] [Ping: 160] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=55
+[05-26-2024] [17:13:00] Ehtesham_Er1x failed Bad Packets (Type M) [VL: 2] [Ping: 178] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=55
+[05-26-2024] [17:13:25] Ehtesham_Er1x failed Air Place (Type A) [VL: 1] [Ping: 180] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [17:14:07] Ehtesham_Er1x failed Air Place (Type A) [VL: 2] [Ping: 177] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] block= OBSIDIAN
+[05-26-2024] [17:14:20] Ehtesham_Er1x failed Bad Packets (Type M) [VL: 3] [Ping: 178] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=45
+[05-26-2024] [23:38:17] herotrisan failed Air Place (Type A) [VL: 1] [Ping: 180] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-26-2024] [23:50:04] herotrisan failed Hitbox (Type B) [VL: 1] [Ping: 217] [TPS: 20] [Version: 1.20] [Client: Unresolved] angle=159.48331885553196 distance=1.04109990971944
+[05-26-2024] [23:50:31] herotrisan failed Hitbox (Type B) [VL: 2] [Ping: 219] [TPS: 20] [Version: 1.20] [Client: Unresolved] angle=70.09547205541618 distance=1.4245747766093844
+[05-26-2024] [23:52:28] herotrisan failed Hitbox (Type B) [VL: 3] [Ping: 220] [TPS: 20] [Version: 1.20] [Client: Unresolved] angle=81.77312161146784 distance=0.6269604418883308
+[05-27-2024] [00:04:31] MinimumSquid failed Bad Packets (Type G) [VL: 1] [Ping: 162] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] slot=1 lastSlot=1
+[05-27-2024] [00:04:31] MinimumSquid failed Bad Packets (Type G) [VL: 2] [Ping: 162] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] slot=1 lastSlot=1
+[05-27-2024] [06:43:09] FirePlayz123k failed Air Place (Type A) [VL: 1] [Ping: 105] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [07:31:19] GureXxX failed Air Place (Type A) [VL: 1] [Ping: 92] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [09:21:18] StrikeLegendOP failed Jump (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=2.0 ticks=1 difference=1.5800000131130219
+[05-27-2024] [10:32:45] GureXxX failed Air Place (Type A) [VL: 1] [Ping: 144] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:33:14] GureXxX failed Air Place (Type A) [VL: 2] [Ping: 148] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:33:51] GureXxX failed Air Place (Type A) [VL: 3] [Ping: 155] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:35:00] Arhayan0 failed Air Place (Type A) [VL: 1] [Ping: 219] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:35:10] Arhayan0 failed Air Place (Type A) [VL: 2] [Ping: 219] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:35:10] GureXxX failed Air Place (Type A) [VL: 4] [Ping: 159] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:35:43] GureXxX failed Air Place (Type A) [VL: 1] [Ping: 159] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:37:24] Arhayan0 failed Air Place (Type A) [VL: 1] [Ping: 247] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:37:24] GureXxX failed Air Place (Type A) [VL: 2] [Ping: 168] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:37:36] Arhayan0 failed Air Place (Type A) [VL: 2] [Ping: 230] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:37:36] GureXxX failed Air Place (Type A) [VL: 3] [Ping: 166] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:38:17] GureXxX failed Air Place (Type A) [VL: 4] [Ping: 162] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:39:17] GureXxX failed Air Place (Type A) [VL: 5] [Ping: 161] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:40:45] Arhayan0 failed Air Place (Type A) [VL: 3] [Ping: 228] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:40:45] GureXxX failed Air Place (Type A) [VL: 6] [Ping: 180] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:41:10] GureXxX failed Air Place (Type A) [VL: 7] [Ping: 175] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:41:11] GureXxX failed Speed (Type C) [VL: 2] [Ping: 175] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.4112531710878181 max=0.36 diff=0.05125317108781813 ticks=9 deltaY=-0.15027426568789792
+[05-27-2024] [10:42:14] Arhayan0 failed Air Place (Type A) [VL: 4] [Ping: 197] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:42:14] GureXxX failed Air Place (Type A) [VL: 8] [Ping: 175] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:42:31] Arhayan0 failed Air Place (Type A) [VL: 5] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [10:42:31] GureXxX failed Air Place (Type A) [VL: 9] [Ping: 169] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= GLOWSTONE
+[05-27-2024] [10:42:32] Arhayan0 failed Speed (Type C) [VL: 2] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=0.43903265615850173 max=0.36 diff=0.07903265615850175 ticks=5 deltaY=-0.07222711611848354
+[05-27-2024] [21:05:54] MAK_Here failed Air Place (Type A) [VL: 1] [Ping: 182] [TPS: 20] [Version: 1.20.2] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [21:05:55] MAK_Here failed Air Place (Type A) [VL: 2] [Ping: 182] [TPS: 20] [Version: 1.20.2] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [21:11:01] MAK_Here failed Air Place (Type A) [VL: 1] [Ping: 184] [TPS: 20] [Version: 1.20.2] [Client: Unresolved] block= OBSIDIAN
+[05-27-2024] [21:15:02] MAK_Here failed Bad Packets (Type W) [VL: 1] [Ping: 185] [TPS: 20] [Version: 1.20.2] [Client: Unresolved] 
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 1] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8439105457705125 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 1] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.8439105457705125 ticks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 2] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-0.9657237242233805 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 2] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.0248092696845106 ticks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 3] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.082713105363382 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 3] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.1394588654330846 ticks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 4] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.1950697113837805 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 5] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.3029770000061092 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 4] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.3029770000061092 ticks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 6] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.406611164032995 airTicks=1
+[05-28-2024] [17:17:49] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 5] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.406611164032995 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 7] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.5061414190386984 airTicks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 6] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.5544186209111501 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 8] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6017302796670094 airTicks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed VClip (Type A) [VL: 1] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6480957061501158 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 7] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6480957061501158 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 9] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6935338249879237 airTicks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed VClip (Type A) [VL: 2] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.6935338249879237 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed VClip (Type A) [VL: 3] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.738063182315642 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type C) [VL: 10] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 airTicks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed VClip (Type A) [VL: 4] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed Ground Spoof (Type A) [VL: 8] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.7817019533461291 ticks=1
+[05-28-2024] [17:17:50] RayyanPlayz_ failed VClip (Type A) [VL: 5] [Ping: 194] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=-1.8244679497883567 ticks=1
+[05-29-2024] [07:01:45] MananGaming3 failed Motion (Type D) [VL: 1] [Ping: 134] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.09999999997612E-5
+[05-29-2024] [07:01:47] MananGaming3 failed Kill Aura (Type A) [VL: 1] [Ping: 134] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=41
+[05-29-2024] [07:02:15] MananGaming3 failed Kill Aura (Type A) [VL: 2] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=74
+[05-29-2024] [07:02:16] MananGaming3 failed Aim (Type C) [VL: 1] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaYaw=8.783676
+[05-29-2024] [07:02:57] MananGaming3 failed Kill Aura (Type A) [VL: 3] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=42
+[05-31-2024] [12:30:30] MinimumSquid failed Speed (Type C) [VL: 2] [Ping: 178] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=0.5418769402232856 max=0.45999999999999996 diff=0.08187694022328562 ticks=8 deltaY=0.30293649918056076
+[05-31-2024] [17:38:12] FakeProGamer90 failed Bad Packets (Type M) [VL: 1] [Ping: 26] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=48
+[05-31-2024] [17:39:22] FakeProGamer90 failed Bad Packets (Type M) [VL: 2] [Ping: 27] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=42
+[06-02-2024] [09:46:17] haid1166 failed Air Place (Type A) [VL: 1] [Ping: 159] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= DIRT
+[06-02-2024] [09:47:24] haid1166 failed Fast Break (Type A) [VL: 1] [Ping: 153] [TPS: 20] [Version: 1.20] [Client: Unresolved] block=DIRT diff=-157.0 tool=TNT_MINECART
+[06-02-2024] [09:48:19] Vgaming_xD failed Air Place (Type A) [VL: 1] [Ping: 177] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= RESPAWN_ANCHOR
+[06-02-2024] [09:49:37] Vgaming_xD failed Air Place (Type A) [VL: 2] [Ping: 176] [TPS: 20] [Version: 1.20] [Client: Unresolved] block= OBSIDIAN
+[06-08-2024] [15:43:10] sharpygamerYT failed Kill Aura (Type A) [VL: 1] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=67
+[06-08-2024] [15:43:11] sharpygamerYT failed Kill Aura (Type A) [VL: 2] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=71
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type B) [VL: 2] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000249001954 max=0.7715000029802322 diff=3.099500246021722 ticks=0 deltaY=0.0
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type C) [VL: 2] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000249001954 max=0.527500002682209 diff=3.343500246319745 ticks=3 deltaY=0.0
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type D) [VL: 2] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000249001954 max=0.3725000029802322 diff=3.498500246021722 ticks=70 deltaY=0.0 tp=294
+[06-08-2024] [15:43:15] sharpygamerYT failed Invalid (Type E) [VL: 1] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000249001954
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type B) [VL: 3] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.1889259043311142 max=0.7715000029802322 diff=1.417425901350882 ticks=0 deltaY=1.9499999999999993
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type D) [VL: 3] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.1889259043311142 max=0.8715000029802322 diff=1.317425901350882 ticks=0 deltaY=1.9499999999999993 tp=295
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type B) [VL: 4] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.4759108351212773 max=0.8715000029802322 diff=1.604410832141045 ticks=0 deltaY=1.9499999999999993
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type C) [VL: 4] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.4759108351212773 max=0.627500002682209 diff=1.8484108324390682 ticks=5 deltaY=1.9499999999999993
+[06-08-2024] [15:43:15] sharpygamerYT failed Speed (Type D) [VL: 4] [Ping: 232] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.4759108351212773 max=0.9715000029802322 diff=1.504410832141045 ticks=0 deltaY=1.9499999999999993 tp=296
+[06-08-2024] [15:43:21] sharpygamerYT failed Hitbox (Type A) [VL: 1] [Ping: 241] [TPS: 20] [Version: 1.20] [Client: Unresolved] angle=0.9216697216033936 distance=0.2913265073410013 dYaw=48.81308 dXZ=0.09868662343079229
+[06-08-2024] [15:43:21] sharpygamerYT failed Kill Aura (Type A) [VL: 3] [Ping: 241] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=60
+[06-08-2024] [15:43:55] sharpygamerYT failed Strafe (Type A) [VL: 2] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.4205701987587998 deltaXZ=0.6430542504841648
+[06-08-2024] [15:43:55] sharpygamerYT failed Jump (Type B) [VL: 1] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9499999999999993 limit=0.41999998688697815 tp=2
+[06-08-2024] [15:43:55] sharpygamerYT failed Jump (Type B) [VL: 2] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9499999999999993 limit=0.41999998688697815 tp=3
+[06-08-2024] [15:43:55] sharpygamerYT failed Strafe (Type A) [VL: 4] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=1.934737915925749 deltaXZ=1.0
+[06-08-2024] [15:43:55] sharpygamerYT failed Jump (Type B) [VL: 3] [Ping: 66] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9499999999999993 limit=0.41999998688697815 tp=4
+[06-08-2024] [15:43:56] sharpygamerYT failed Strafe (Type A) [VL: 6] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.06709729207849958 deltaXZ=0.9677479717633356
+[06-08-2024] [15:43:56] sharpygamerYT failed Speed (Type C) [VL: 2] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.058607819421949 max=0.36 diff=2.698607819421949 ticks=98 deltaY=0.0
+[06-08-2024] [15:43:56] sharpygamerYT failed Strafe (Type A) [VL: 8] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=2.157978546414429 deltaXZ=3.058607819421949
+[06-08-2024] [15:44:06] sharpygamerYT failed Speed (Type D) [VL: 2] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.967750008259585 max=0.2975 diff=0.670250008259585 ticks=27 deltaY=0.0 tp=193
+[06-08-2024] [15:44:07] sharpygamerYT failed Speed (Type B) [VL: 2] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9677500254229202 max=0.6205 diff=0.34725002542292016 ticks=0 deltaY=0.0
+[06-08-2024] [15:44:07] sharpygamerYT failed Speed (Type C) [VL: 4] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9677500254229202 max=0.36 diff=0.6077500254229202 ticks=23 deltaY=0.0
+[06-08-2024] [15:44:07] sharpygamerYT failed Speed (Type D) [VL: 3] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9677500254229202 max=0.2975 diff=0.6702500254229202 ticks=46 deltaY=0.0 tp=1
+[06-08-2024] [15:44:07] sharpygamerYT failed Strafe (Type A) [VL: 10] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.06709747690780832 deltaXZ=0.9677500254229202
+[06-08-2024] [15:44:08] sharpygamerYT failed Speed (Type B) [VL: 3] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9677500254229202 max=0.6205 diff=0.34725002542292016 ticks=0 deltaY=0.0
+[06-08-2024] [15:44:08] sharpygamerYT failed Speed (Type D) [VL: 4] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=0.9677500254229202 max=0.2975 diff=0.6702500254229202 ticks=52 deltaY=0.0 tp=1
+[06-08-2024] [15:44:08] sharpygamerYT failed Strafe (Type A) [VL: 12] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.06709747690780832 deltaXZ=0.9677500254229202
+[06-08-2024] [15:44:08] sharpygamerYT failed Speed (Type B) [VL: 4] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.891983888142822 max=0.6205 diff=2.2714838881428223 ticks=0 deltaY=0.0
+[06-08-2024] [15:44:08] sharpygamerYT failed Strafe (Type A) [VL: 14] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=5.504423268013613 deltaXZ=2.891983888142822
+[06-08-2024] [15:44:08] sharpygamerYT failed Improbable (Type B) [VL: 1] [Ping: 113] [TPS: 20] [Version: 1.20] [Client: Unresolved] movementViolations=31
+[06-08-2024] [15:44:30] sharpygamerYT failed Kill Aura (Type A) [VL: 1] [Ping: 63] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=83
+[06-08-2024] [15:44:31] sharpygamerYT failed Kill Aura (Type A) [VL: 2] [Ping: 63] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=50
+[06-08-2024] [15:44:33] sharpygamerYT failed Kill Aura (Type A) [VL: 3] [Ping: 63] [TPS: 20] [Version: 1.20] [Client: Unresolved] delay=69
+[06-08-2024] [15:49:29] sharpygamerYT failed Jump (Type A) [VL: 1] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=2 difference=1.6168000063657786
+[06-08-2024] [15:49:29] sharpygamerYT failed Jump (Type B) [VL: 1] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=93
+[06-08-2024] [15:49:29] sharpygamerYT failed Jump (Type A) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=3 difference=1.7018640014090565
+[06-08-2024] [15:49:29] sharpygamerYT failed Jump (Type B) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=94
+[06-08-2024] [15:49:29] sharpygamerYT failed Speed (Type B) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001515774124 max=0.6205 diff=3.2505001515774126 ticks=0 deltaY=1.9500000000000028
+[06-08-2024] [15:49:29] sharpygamerYT failed Speed (Type C) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001515774124 max=0.36 diff=3.5110001515774125 ticks=3 deltaY=1.9500000000000028
+[06-08-2024] [15:49:29] sharpygamerYT failed Speed (Type D) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001515774124 max=0.6205 diff=3.2505001515774126 ticks=0 deltaY=1.9500000000000028 tp=94
+[06-08-2024] [15:49:29] sharpygamerYT failed Invalid (Type E) [VL: 1] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.8710001515774124
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type A) [VL: 3] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 ticks=4 difference=1.7852267181739379
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type B) [VL: 3] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.9500000000000028 limit=0.41999998688697815 tp=95
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type B) [VL: 3] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001515774124 max=0.6205 diff=3.2505001515774126 ticks=0 deltaY=1.9500000000000028
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type D) [VL: 3] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.8710001515774124 max=0.6205 diff=3.2505001515774126 ticks=0 deltaY=1.9500000000000028 tp=95
+[06-08-2024] [15:49:30] sharpygamerYT failed Invalid (Type E) [VL: 2] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.8710001515774124
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type A) [VL: 5] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.8326000356674186 ticks=5 difference=1.7495222178609495
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type B) [VL: 4] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.8326000356674186 limit=0.41999998688697815 tp=96
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type B) [VL: 4] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.542210239549241 max=0.6205 diff=2.921710239549241 ticks=0 deltaY=1.8326000356674186
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type C) [VL: 4] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.542210239549241 max=0.36 diff=3.1822102395492413 ticks=5 deltaY=1.8326000356674186
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type D) [VL: 4] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.542210239549241 max=0.6205 diff=2.921710239549241 ticks=0 deltaY=1.8326000356674186 tp=96
+[06-08-2024] [15:49:30] sharpygamerYT failed Invalid (Type E) [VL: 3] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.542210239549241
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type A) [VL: 5] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.7175480683822641 ticks=6 difference=1.7959480699081425
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type B) [VL: 5] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.7175480683822641 limit=0.41999998688697815 tp=97
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type B) [VL: 5] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.243011410980749 max=0.6205 diff=2.6225114109807492 ticks=0 deltaY=1.7175480683822641
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type D) [VL: 5] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.243011410980749 max=0.6205 diff=2.6225114109807492 ticks=0 deltaY=1.7175480683822641 tp=97
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type A) [VL: 6] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.6047971382483723 ticks=7 difference=1.7600291427649708
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type B) [VL: 6] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.6047971382483723 limit=0.41999998688697815 tp=98
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type B) [VL: 6] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.9707404691366235 max=0.6205 diff=2.350240469136623 ticks=0 deltaY=1.6047971382483723
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type C) [VL: 6] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.9707404691366235 max=0.36 diff=2.6107404691366236 ticks=7 deltaY=1.6047971382483723
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type D) [VL: 6] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.9707404691366235 max=0.6205 diff=2.350240469136623 ticks=0 deltaY=1.6047971382483723 tp=98
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type A) [VL: 7] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.4943012245665983 ticks=8 difference=1.7248285934795646
+[06-08-2024] [15:49:30] sharpygamerYT failed Jump (Type B) [VL: 7] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=1.4943012245665983 limit=0.41999998688697815 tp=99
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type B) [VL: 7] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.703373904825098 max=0.6205 diff=2.0828739048250977 ticks=0 deltaY=1.4943012245665983
+[06-08-2024] [15:49:30] sharpygamerYT failed Speed (Type D) [VL: 7] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=2.703373904825098 max=0.6205 diff=2.0828739048250977 ticks=0 deltaY=1.4943012245665983 tp=99
+[06-08-2024] [15:49:30] sharpygamerYT failed Improbable (Type B) [VL: 1] [Ping: 263] [TPS: 20] [Version: 1.20] [Client: Unresolved] movementViolations=31
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6205 diff=3.2505002335267017 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type C) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.36 diff=3.511000233526702 ticks=8 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6955 diff=3.175500233526702 ticks=0 deltaY=0.0 tp=63
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 1] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 3] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6205 diff=3.2505002335267017 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 3] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6955 diff=3.175500233526702 ticks=0 deltaY=0.0 tp=64
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 4] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6205 diff=3.2505002335267017 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type C) [VL: 4] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.36 diff=3.511000233526702 ticks=10 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 4] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6955 diff=3.175500233526702 ticks=0 deltaY=0.0 tp=65
+[06-08-2024] [15:52:19] sharpygamerYT failed Strafe (Type A) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.2419922457664476 deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 3] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 5] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6205 diff=3.2505002335267017 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 5] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.6955 diff=3.175500233526702 ticks=0 deltaY=0.0 tp=66
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 4] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 6] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.770780013022087 max=0.6605000000000001 diff=3.110280013022087 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type C) [VL: 6] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.770780013022087 max=0.36 diff=3.4107800130220873 ticks=12 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 6] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.770780013022087 max=1.2855 diff=2.485280013022087 ticks=0 deltaY=0.0 tp=67
+[06-08-2024] [15:52:19] sharpygamerYT failed Strafe (Type A) [VL: 4] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] difference=0.45799750824217894 deltaXZ=3.770780013022087
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 5] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.770780013022087
+[06-08-2024] [15:52:19] sharpygamerYT failed Flight (Type B) [VL: 2] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=76 tp=68
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 7] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=1.0705 diff=2.800500233526702 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 7] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=1.5955000000000001 diff=2.275500233526702 ticks=0 deltaY=0.0 tp=68
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 6] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 8] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=1.0705 diff=2.800500233526702 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type C) [VL: 8] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.51 diff=3.3610002335267017 ticks=14 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 8] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=1.5955000000000001 diff=2.275500233526702 ticks=0 deltaY=0.0 tp=69
+[06-08-2024] [15:52:19] sharpygamerYT failed Invalid (Type E) [VL: 7] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] deltaXZ=3.871000233526702
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type B) [VL: 9] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=0.7605000000000001 diff=3.110500233526702 ticks=0 deltaY=0.0
+[06-08-2024] [15:52:19] sharpygamerYT failed Speed (Type D) [VL: 9] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] speed=3.871000233526702 max=1.7355 diff=2.135500233526702 ticks=0 deltaY=0.0 tp=70
+[06-08-2024] [15:52:19] sharpygamerYT failed Improbable (Type B) [VL: 1] [Ping: 262] [TPS: 20] [Version: 1.20] [Client: Unresolved] movementViolations=33
+[06-08-2024] [15:53:23] sharpygamerYT failed Scaffold (Type K) [VL: 1] [Ping: 182] [TPS: 20] [Version: 1.20] [Client: Unresolved] amount=7
+[06-10-2024] [09:37:36] MinimumSquid failed Air Place (Type A) [VL: 1] [Ping: 190] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] block= OBSIDIAN
+[06-10-2024] [09:43:07] MinimumSquid failed Speed (Type C) [VL: 2] [Ping: 189] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] speed=0.8987220571862382 max=0.36 diff=0.5387220571862382 ticks=11 deltaY=1.2291821629055164
+[06-10-2024] [09:45:11] MinimumSquid failed Bad Packets (Type G) [VL: 1] [Ping: 189] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] slot=1 lastSlot=1
+[06-10-2024] [09:45:11] MinimumSquid failed Bad Packets (Type G) [VL: 2] [Ping: 189] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] slot=1 lastSlot=1
+[06-10-2024] [09:46:59] MinimumSquid failed Hitbox (Type B) [VL: 1] [Ping: 191] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] angle=87.16279656476823 distance=1.1006077707076345
+[06-10-2024] [09:51:26] MinimumSquid failed Speed (Type C) [VL: 2] [Ping: 193] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] speed=0.4292978612286471 max=0.36 diff=0.06929786122864712 ticks=10 deltaY=-0.15523200451659847
+[06-10-2024] [09:51:26] MinimumSquid failed Speed (Type C) [VL: 4] [Ping: 193] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] speed=0.36510563414813746 max=0.36 diff=0.005105634148137472 ticks=16 deltaY=-0.5850090015087517
+[06-10-2024] [10:09:11] MinimumSquid failed Hitbox (Type B) [VL: 1] [Ping: 191] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] angle=50.60307863596734 distance=2.188702000640628
+[06-10-2024] [10:15:17] KN_RealmWLS failed Scaffold (Type K) [VL: 1] [Ping: 287] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] amount=6
+[06-10-2024] [10:15:19] KN_RealmWLS failed Bad Packets (Type M) [VL: 1] [Ping: 287] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=50
+[06-10-2024] [10:15:19] KN_RealmWLS failed Scaffold (Type K) [VL: 2] [Ping: 287] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] amount=6
+[06-10-2024] [10:15:20] KN_RealmWLS failed Scaffold (Type K) [VL: 3] [Ping: 287] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] amount=6
+[06-10-2024] [10:15:28] KN_RealmWLS failed Bad Packets (Type M) [VL: 2] [Ping: 296] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=48
+[06-10-2024] [10:15:43] KN_RealmWLS failed Bad Packets (Type M) [VL: 3] [Ping: 315] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=48
+[06-10-2024] [10:15:56] KN_RealmWLS failed Bad Packets (Type M) [VL: 4] [Ping: 314] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=50
+[06-10-2024] [10:19:50] KN_RealmWLS failed Bad Packets *(Type 7)* [VL: 1] [Ping: 180] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=624 queue=5 velDelay=20618 tDelay=41
+[06-10-2024] [10:22:38] GamingGuruVk failed Hitbox (Type B) [VL: 1] [Ping: 158] [TPS: 20] [Version: 1.20.3] [Client: Optifine] angle=53.96150314143012 distance=0.6920953261102332
+[06-10-2024] [11:27:15] HackerPlayz1_ failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.02900000113088549 deltaXZ=0.33166223020954205
+[06-10-2024] [11:27:15] HackerPlayz1_ failed Flight (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.07520103977707097 ticks=14 delay=50 tp=19
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=18 delay=61 tp=20
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type E) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=15 acceleration=0.0 deltaY=0.0 delay=61 tp=20
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Strafe (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.029000002608712234 deltaXZ=0.34635417653066847
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=16 delay=48 tp=21
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Strafe (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.029000000891631707 deltaXZ=0.34003069648437784
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=19 delay=44 tp=24
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=22 delay=44 tp=24
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type E) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=19 acceleration=0.0 deltaY=0.0 delay=44 tp=24
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Strafe (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.029000002276816452 deltaXZ=0.32313317713657796
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=21 delay=44 tp=26
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type A) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=23 delay=47 tp=28
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=26 delay=47 tp=28
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Flight (Type E) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=23 acceleration=0.0 deltaY=0.0 delay=47 tp=28
+[06-10-2024] [11:27:16] HackerPlayz1_ failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] movementViolations=32
+[06-10-2024] [12:56:16] MinimumSquid failed Bad Packets (Type G) [VL: 1] [Ping: 193] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] slot=8 lastSlot=8
+[06-10-2024] [13:02:01] HackerPlayz1_ failed Kill Aura (Type A) [VL: 1] [Ping: 180] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=43
+[06-10-2024] [13:02:01] HackerPlayz1_ failed Kill Aura (Type A) [VL: 2] [Ping: 180] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=48
+[06-10-2024] [13:02:02] HackerPlayz1_ failed Kill Aura (Type A) [VL: 3] [Ping: 180] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=52
+[06-10-2024] [13:05:32] HackerPlayz1_ failed Kill Aura (Type A) [VL: 1] [Ping: 176] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=52
+[06-10-2024] [13:05:33] HackerPlayz1_ failed Kill Aura (Type A) [VL: 2] [Ping: 176] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=52
+[06-10-2024] [13:05:34] HackerPlayz1_ failed Kill Aura (Type A) [VL: 3] [Ping: 176] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] delay=48
+[06-10-2024] [13:55:42] MinimumSquid failed Speed (Type C) [VL: 2] [Ping: 189] [TPS: 20] [Version: 1.20.3] [Client: Feather Fabric] speed=0.36120693103970913 max=0.36 diff=0.001206931039709147 ticks=14 deltaY=-0.07840000152587834
+[06-10-2024] [14:54:26] ZEROXFFF failed Jump (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.901600017547608 limit=0.41999998688697815 tp=200
+[06-10-2024] [14:54:26] ZEROXFFF failed Jump (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=201
+[06-10-2024] [14:54:26] ZEROXFFF failed Jump (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 limit=0.41999998688697815 tp=203
+[06-10-2024] [14:54:27] ZEROXFFF failed Jump (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 limit=0.41999998688697815 tp=205
+[06-10-2024] [18:36:41] Itz_Opp failed Inventory (Type A) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=42
+[06-10-2024] [18:36:41] Itz_Opp failed Inventory (Type B) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaXZ=0.28060736584997054 lastDeltaXZ=0.28059994220728646
+[06-10-2024] [18:40:56] Itz_Opp failed Hitbox (Type A) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] angle=0.381771445274353 distance=0.41399740045961675 dYaw=24.549438 dXZ=0.05219013821424472
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.10927771858853896 ticks=11 deltaXZ=0.9860162895651055
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.033812493435363 limit=0.41999998688697815 tp=201
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0346521320055757 limit=0.41999998688697815 tp=202
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type C) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1129724169196564 max=0.36 diff=0.7529724169196564 ticks=14 deltaY=1.0346521320055757
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0351559151477119 limit=0.41999998688697815 tp=203
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.10730545079875653 ticks=15 deltaXZ=1.146110379384507
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Step (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=10 deltaY=1.0351559151477119
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0354581850329936 limit=0.41999998688697815 tp=204
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1728227235466835 max=0.6205 diff=0.5523227235466834 ticks=0 deltaY=1.0354581850329936
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type C) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1728227235466835 max=0.36 diff=0.8128227235466835 ticks=16 deltaY=1.0354581850329936
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type D) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1728227235466835 max=0.6205 diff=0.5523227235466834 ticks=0 deltaY=1.0354581850329936 tp=204
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.11535912016257353 deltaXZ=1.1728227235466835
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Flight (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0356395469641626 difference=0.09929050740791023 ticks=14 delay=46 tp=205
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0356395469641626 limit=0.41999998688697815 tp=205
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1939659873483133 max=0.6205 diff=0.5734659873483132 ticks=0 deltaY=1.0356395469641626
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type D) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1939659873483133 max=0.6205 diff=0.5734659873483132 ticks=0 deltaY=1.0356395469641626 tp=205
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0357483641228669 difference=0.09922158987060958 ticks=18 delay=142 tp=206
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Flight (Type C) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0357483641228669 ticks=15 delay=142 tp=206
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0357483641228669 limit=0.41999998688697815 tp=206
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Speed (Type C) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.0865090797999652 max=0.36 diff=0.7265090797999653 ticks=18 deltaY=1.0357483641228669
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Flight (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0358136544180923 difference=0.09918023934822928 ticks=16 delay=8 tp=207
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Jump (Type B) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0358136544180923 limit=0.41999998688697815 tp=207
+[06-11-2024] [05:25:28] SCARY_GAMER_xD failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] movementViolations=33
+[06-11-2024] [05:25:39] SCARY_GAMER_xD failed Motion (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:42] SCARY_GAMER_xD failed Motion (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:45] SCARY_GAMER_xD failed Motion (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:49] SCARY_GAMER_xD failed Motion (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:52] SCARY_GAMER_xD failed Motion (Type B) [VL: 5] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type A) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=-0.03130000000000166 difference=0.0164260009288755 ticks=43 delay=991 tp=145
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type B) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166 difference=0.1403740021228823 ticks=46 delay=51 tp=146
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Motion (Type B) [VL: 6] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.03130000000000166
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type A) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.04772600092887716 ticks=45 delay=248 tp=147
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type A) [VL: 6] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=48 delay=52 tp=150
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type B) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=50 delay=52 tp=150
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Strafe (Type A) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.18224479712319586 deltaXZ=0.8205549417411567
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type A) [VL: 8] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=50 delay=58 tp=152
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Flight (Type E) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] ticks=50 acceleration=0.0 deltaY=0.0 delay=58 tp=152
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Speed (Type C) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] speed=1.1960143122079694 max=0.36 diff=0.8360143122079694 ticks=53 deltaY=0.0
+[06-11-2024] [05:25:55] SCARY_GAMER_xD failed Strafe (Type A) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] difference=0.18224479061121618 deltaXZ=1.1960143122079694
+[06-11-2024] [05:25:56] SCARY_GAMER_xD failed Flight (Type A) [VL: 10] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=52 delay=46 tp=154
+[06-11-2024] [05:25:56] SCARY_GAMER_xD failed Flight (Type B) [VL: 6] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0 difference=0.0784000015258789 ticks=54 delay=46 tp=154
+[06-11-2024] [05:25:56] SCARY_GAMER_xD failed Improbable (Type B) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] movementViolations=34
+[06-11-2024] [11:14:29] Karan_890 failed Aim (Type Y) [VL: 1] [Ping: 88] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] diff=25.521107 dist=1.719933767655622
+[06-11-2024] [11:14:29] Karan_890 failed Aim (Type Y) [VL: 2] [Ping: 88] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] diff=26.372396 dist=1.1245653924738859
+[06-11-2024] [11:14:30] Karan_890 failed Aim (Type Y) [VL: 3] [Ping: 88] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] diff=28.366762 dist=2.4120092921816347
+[06-11-2024] [11:14:45] Karan_890 failed Aim (Type Y) [VL: 4] [Ping: 116] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] diff=26.407934 dist=1.6293825086832578
+[06-11-2024] [11:14:51] Karan_890 failed Aim (Type Y) [VL: 5] [Ping: 138] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] diff=26.863428 dist=1.7479005911497016
+[06-11-2024] [16:47:57] minhaz073105 failed Jump (Type B) [VL: 2] [Ping: 1696] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0 limit=0.41999998688697815 tp=158
+[06-11-2024] [16:47:57] minhaz073105 failed Jump (Type B) [VL: 3] [Ping: 1696] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.901600017547608 limit=0.41999998688697815 tp=159
+[06-11-2024] [16:47:57] minhaz073105 failed Jump (Type B) [VL: 4] [Ping: 1696] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=160
+[06-11-2024] [16:47:57] minhaz073105 failed Jump (Type B) [VL: 4] [Ping: 1696] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 limit=0.41999998688697815 tp=162
+[06-11-2024] [16:47:57] minhaz073105 failed Jump (Type B) [VL: 5] [Ping: 1696] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 limit=0.41999998688697815 tp=164
+[06-11-2024] [18:32:40] RohaanOp failed Jump (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.0853999989032701 ticks=3 difference=0.16273599968767627
+[06-11-2024] [18:32:40] RohaanOp failed Jump (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.11765599973487895 ticks=5 difference=0.03457818192840989
+[06-11-2024] [18:32:40] RohaanOp failed Jump (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.1382998408823397 ticks=7 difference=0.2935318453989382
+[06-11-2024] [18:32:52] RohaanOp failed Bad Packets *(Type 7)* [VL: 1] [Ping: 3092] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=1283 queue=5 velDelay=34333 tDelay=532
+[06-11-2024] [18:32:52] RohaanOp failed Bad Packets *(Type 7)* [VL: 2] [Ping: 3092] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=1684 queue=5 velDelay=34734 tDelay=933
+[06-11-2024] [18:32:57] RohaanOp failed Jump (Type B) [VL: 1] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.901600017547608 limit=0.41999998688697815 tp=282
+[06-11-2024] [18:32:57] RohaanOp failed Jump (Type B) [VL: 2] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=283
+[06-11-2024] [18:32:57] RohaanOp failed Jump (Type B) [VL: 3] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0 limit=0.41999998688697815 tp=284
+[06-11-2024] [18:32:58] RohaanOp failed Jump (Type B) [VL: 4] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.901600017547608 limit=0.41999998688697815 tp=285
+[06-11-2024] [18:32:58] RohaanOp failed Jump (Type B) [VL: 5] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=286
+[06-11-2024] [18:32:58] RohaanOp failed Jump (Type B) [VL: 6] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 limit=0.41999998688697815 tp=288
+[06-11-2024] [18:32:58] RohaanOp failed Jump (Type B) [VL: 7] [Ping: 3916] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 limit=0.41999998688697815 tp=290
+[06-11-2024] [18:33:21] RohaanOp failed Bad Packets *(Type 7)* [VL: 3] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=1086 queue=4 velDelay=23538 tDelay=282
+[06-11-2024] [18:33:21] RohaanOp failed Bad Packets *(Type 7)* [VL: 4] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=1487 queue=4 velDelay=23939 tDelay=343
+[06-11-2024] [18:33:22] RohaanOp failed Bad Packets *(Type 7)* [VL: 5] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] lastVel=1892 queue=4 velDelay=24344 tDelay=748
+[06-11-2024] [18:33:22] RohaanOp failed Jump (Type B) [VL: 8] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=686
+[06-11-2024] [18:33:22] RohaanOp failed Jump (Type B) [VL: 9] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 limit=0.41999998688697815 tp=688
+[06-11-2024] [18:33:23] RohaanOp failed Jump (Type B) [VL: 10] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 limit=0.41999998688697815 tp=690
+[06-11-2024] [18:33:23] RohaanOp failed Flight (Type C) [VL: 2] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.3511777024144749 ticks=12 delay=51 tp=691
+[06-11-2024] [18:33:23] RohaanOp failed Flight (Type C) [VL: 4] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.18203907401070296 ticks=14 delay=52 tp=693
+[06-11-2024] [18:33:23] RohaanOp failed Jump (Type B) [VL: 11] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=1.0 limit=0.41999998688697815 tp=706
+[06-11-2024] [18:33:23] RohaanOp failed Jump (Type B) [VL: 12] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.901600017547608 limit=0.41999998688697815 tp=707
+[06-11-2024] [18:33:23] RohaanOp failed Flight (Type C) [VL: 6] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 ticks=29 delay=58 tp=708
+[06-11-2024] [18:33:23] RohaanOp failed Jump (Type B) [VL: 13] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.805168032867428 limit=0.41999998688697815 tp=708
+[06-11-2024] [18:33:24] RohaanOp failed Flight (Type C) [VL: 8] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 ticks=31 delay=58 tp=710
+[06-11-2024] [18:33:24] RohaanOp failed Jump (Type B) [VL: 14] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.6180514043497141 limit=0.41999998688697815 tp=710
+[06-11-2024] [18:33:24] RohaanOp failed Flight (Type C) [VL: 10] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 ticks=33 delay=58 tp=712
+[06-11-2024] [18:33:24] RohaanOp failed Jump (Type B) [VL: 15] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.4383445873261138 limit=0.41999998688697815 tp=712
+[06-11-2024] [18:33:24] RohaanOp failed Flight (Type D) [VL: 2] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] deltaY=0.3511777024144749 ticks=34 delay=51 tp=713
+[06-11-2024] [18:33:24] RohaanOp failed Improbable (Type B) [VL: 1] [Ping: 3997] [TPS: 20] [Version: 1.20.3] [Client: Unresolved] movementViolations=31
